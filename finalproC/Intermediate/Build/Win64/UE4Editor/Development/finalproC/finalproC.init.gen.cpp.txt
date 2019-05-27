@@ -1,3 +1,0 @@
-D:\My_program\UE_4.22\finalproC\Intermediate\Build\Win64\UE4Editor\Development\finalproC\Definitions.finalproC.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

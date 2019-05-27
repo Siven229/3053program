@@ -1,2 +1,0 @@
-D:\My_program\UE_4.22\finalproC\Intermediate\Build\Win64\UE4Editor\Development\finalproC\Definitions.finalproC.h
-d:\my_program\ue_4.22\finalproc\source\finalproc\finalproC.h

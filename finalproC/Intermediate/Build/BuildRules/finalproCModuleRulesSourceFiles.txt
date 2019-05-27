@@ -1,3 +1,0 @@
-D:\My_program\UE_4.22\finalproC\Source\finalproC\finalproC.Build.cs
-D:\My_program\UE_4.22\finalproC\Source\finalproC.Target.cs
-D:\My_program\UE_4.22\finalproC\Source\finalproCEditor.Target.cs

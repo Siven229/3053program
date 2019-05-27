@@ -1,9 +1,0 @@
-D:\My_program\UE_4.22\finalproC\Intermediate\Build\Win64\UE4Editor\Development\finalproC\Definitions.finalproC.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\My_program\UE_4.22\finalproC\Source\finalproC/finalproCPawn.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-d:\my_program\ue_4.22\finalproc\intermediate\build\win64\ue4editor\inc\finalproc\finalproCPawn.generated.h
