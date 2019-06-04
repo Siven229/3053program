@@ -2,15 +2,19 @@
 
 #pragma once
 
+#include "ActorHP.h"
+#include "ObjectActor.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "program3053Pawn.generated.h"
+
 
 UCLASS(Blueprintable)
 class Aprogram3053Pawn : public APawn
 {
 	GENERATED_BODY()
 
+		
 	/* The mesh component */
 	UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* ShipMeshComponent;
@@ -26,6 +30,9 @@ class Aprogram3053Pawn : public APawn
 public:
 	Aprogram3053Pawn();
 
+	
+
+	
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite )
 	FVector GunOffset;
@@ -53,11 +60,30 @@ public:
 	/* Handler for the fire timer expiry */
 	void ShotTimerExpired();
 
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 HP = 100;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 EXP = 0; 
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 LevelInitialization = 1;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 LevelMax = 10;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 Level = 1;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int64 EXPMax = 100;
+
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
+
 
 private:
 
@@ -74,7 +100,18 @@ public:
 	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	
+	void CollisionHP(AActor * HPP);
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
-};
 
+	void IsDead();
+
+	void CalculateHealth();
+
+	void LevelUp();
+
+	void CalculateExperience();
+
+	void CalculateLevel();
+};

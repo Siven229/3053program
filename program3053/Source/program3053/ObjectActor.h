@@ -24,13 +24,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UStaticMeshComponent * MeshComp;// 网格体组件
 
-
-
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	USphereComponent * SphereComp;//球体组件
-
-
-
 
 	virtual void BeginPlay() override;
 

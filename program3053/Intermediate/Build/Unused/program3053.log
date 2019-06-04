@@ -1,13 +1,15 @@
-﻿  Parsing headers for program3053Editor
+﻿  Creating makefile for program3053Editor (ini files are newer than makefile)
+  Parsing headers for program3053Editor
     Running UnrealHeaderTool "D:\Epic\UE_4.22\program3053\program3053.uproject" "D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 6.3193253 seconds
+  Reflection code generated for program3053Editor in 15.1938095 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (D:\vs\annnn\annnn\vs\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] ObjectActor.cpp
-    [2/4] UE4Editor-program3053-0013.lib
-      正在创建库 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0013.lib 和对象 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0013.exp
-    [3/4] UE4Editor-program3053-0013.dll
-      正在创建库 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0013.suppressed.lib 和对象 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0013.suppressed.exp
-    [4/4] program3053Editor.target
-  Total time in Parallel executor: 4.96 seconds
-  Total execution time: 12.47 seconds
+  Building 5 actions with 8 processes...
+    [1/5] program3053.init.gen.cpp
+    [2/5] program3053Pawn.cpp
+    [3/5] UE4Editor-program3053-0001.lib
+      正在创建库 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.lib 和对象 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.exp
+    [4/5] UE4Editor-program3053-0001.dll
+      正在创建库 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.lib 和对象 D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.exp
+    [5/5] program3053Editor.target
+  Total time in Parallel executor: 345.46 seconds
+  Total execution time: 366.89 seconds

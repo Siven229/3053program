@@ -14,8 +14,7 @@
 #include "Sound/SoundBase.h"
 #include "iostream"
 
-UPROPERTY(BlueprintReadOnly, Category = "Gameplay")
-int EXP = 0;
+
 
 const FName Aprogram3053Pawn::MoveForwardBinding("MoveForward");
 const FName Aprogram3053Pawn::MoveRightBinding("MoveRight");
@@ -55,6 +54,7 @@ Aprogram3053Pawn::Aprogram3053Pawn()
 	FireRate = 0.1f;
 	bCanFire = true;
 }
+
 
 void Aprogram3053Pawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
@@ -141,10 +141,78 @@ void Aprogram3053Pawn::ShotTimerExpired()
 	bCanFire = true;
 }
 
-void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
+void Aprogram3053Pawn::LevelUp()
 {
-	Super::NotifyActorBeginOverlap(OtherActor);
-	EXP = EXP + 1;
-	std::cout << EXP;
+	EXP = EXP - EXPMax;
+	EXPMax = EXPMax + 50;
+	Level = Level + 1;
 }
 
+void Aprogram3053Pawn::CalculateLevel()
+{
+	if (Level == LevelMax)
+		return;
+	else if (Level < LevelMax)
+	{
+		LevelUp();
+	}
+}
+
+void Aprogram3053Pawn::CalculateExperience()
+{
+	if (EXP < EXPMax) 
+	{
+		return;
+	}
+	if (EXP == EXPMax || EXP > EXPMax)
+	{
+		CalculateLevel();
+	}
+}
+
+void Aprogram3053Pawn::IsDead()
+{
+	Destroy();
+}
+
+void Aprogram3053Pawn::CalculateHealth()
+{
+	if (HP > 100)
+	{
+		HP = 100;
+		return;
+	}
+	else if (HP < 0 || HP == 0)
+	{
+		IsDead();
+		return;
+	}
+	else
+		HP = HP;
+	    return;
+}
+
+/* void Aprogram3053Pawn::CollisionHP(AActor * OtherActor)
+{ 
+	//Super::NotifyActorBeginOverlap(OtherActor);
+	Destroy();
+}*/
+void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
+{
+	//Super::NotifyActorBeginOverlap(OtherActor);
+	if (OtherActor->IsA(AObjectActor::StaticClass()))
+	{
+		EXP = EXP + 80;
+		CalculateExperience();
+		if (Level == 3)
+		{
+			//UE_LOG(LogTemp, Warning, TEXT("you are dead,your level :%d"), &Level);
+		}
+	}
+	
+	else if (OtherActor->IsA(AActorHP::StaticClass()))
+	{
+		HP = HP - 40;
+		CalculateHealth();
+	}
+}

@@ -18,14 +18,11 @@ AObjectActor::AObjectActor()
 
 
 
-
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);//设置为仅查询
 	SphereComp->SetCollisionResponseToAllChannels(ECR_Ignore);//将碰撞设置为响应所有通道，并选择忽略
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn,ECR_Overlap);//玩家人物通道，设为发生重叠 ,穿过物体
 	SphereComp->SetupAttachment(MeshComp);
-
-
 
 
 }
@@ -41,13 +38,11 @@ void AObjectActor::BeginPlay()
 void AObjectActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AObjectActor::NotifyActorBeginOverlap(AActor * OtherActor)//检测是否重叠
 {
-	Super::NotifyActorBeginOverlap(OtherActor);
-	
+	Super::NotifyActorBeginOverlap(OtherActor);	
 	Destroy();
 }
 
