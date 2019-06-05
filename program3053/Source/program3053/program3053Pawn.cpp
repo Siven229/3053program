@@ -16,6 +16,7 @@
 
 
 
+
 const FName Aprogram3053Pawn::MoveForwardBinding("MoveForward");
 const FName Aprogram3053Pawn::MoveRightBinding("MoveRight");
 const FName Aprogram3053Pawn::FireForwardBinding("FireForward");
@@ -63,8 +64,8 @@ void Aprogram3053Pawn::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
-	PlayerInputComponent->BindAxis(FireForwardBinding);
-	PlayerInputComponent->BindAxis(FireRightBinding);
+	//PlayerInputComponent->BindAxis(FireForwardBinding);
+	//PlayerInputComponent->BindAxis(FireRightBinding);
 }
 
 void Aprogram3053Pawn::Tick(float DeltaSeconds)
@@ -82,7 +83,7 @@ void Aprogram3053Pawn::Tick(float DeltaSeconds)
 	// If non-zero size, move this actor
 	if (Movement.SizeSquared() > 0.0f)
 	{
-		const FRotator NewRotation = Movement.Rotation();
+		const FRotator NewRotation = GetActorRotation();
 		FHitResult Hit(1.f);
 		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
 		
@@ -95,14 +96,16 @@ void Aprogram3053Pawn::Tick(float DeltaSeconds)
 	}
 	
 	// Create fire direction vector
+	/*
 	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
 	const float FireRightValue = GetInputAxisValue(FireRightBinding);
 	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 
 	// Try and fire a shot
 	FireShot(FireDirection);
+	*/
 }
-
+/*
 void Aprogram3053Pawn::FireShot(FVector FireDirection)
 {
 	// If it's ok to fire again
@@ -135,11 +138,11 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 		}
 	}
 }
-
 void Aprogram3053Pawn::ShotTimerExpired()
 {
 	bCanFire = true;
 }
+*/
 
 void Aprogram3053Pawn::LevelUp()
 {

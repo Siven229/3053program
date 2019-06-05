@@ -1,7 +1,7 @@
-D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\Definitions.program3053.h
-d:\epic\ue_4.22\program3053\source\program3053\ObjectActor.h
-D:\Epic\UE_4.22\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\copypro\program3053 4.22\Intermediate\Build\Win64\UE4Editor\Development\program3053\Definitions.program3053.h
+d:\copypro\program3053 4.22\source\program3053\ObjectActor.h
+D:\copypro\program3053 4.22\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
+D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\program3053.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1543254E-C12F-4FF6-8604-EBF5BA238593}</UniqueIdentifier>
+      <UniqueIdentifier>{4B704330-0949-432B-8A92-FC02DF107F41}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\program3053.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1BBF1F24-FAEB-4827-807A-2F7AB0C2A5B5}</UniqueIdentifier>
+      <UniqueIdentifier>{B2B1F133-1E61-45B7-A0F4-378E0BEBA0FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,24 +30,12 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\program3053">
-      <UniqueIdentifier>{058A73D5-E469-4C91-9B18-6ABA8E8DC066}</UniqueIdentifier>
+      <UniqueIdentifier>{8BFF26E9-1C42-4F33-875D-0D1A58855FDD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\program3053\ActorHP.cpp">
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\ActorHP.h">
-      <Filter>Source\program3053</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\program3053\EXP1ObjectActor.cpp">
-      <Filter>Source\program3053</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\program3053\EXP1ObjectActor.h">
-      <Filter>Source\program3053</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\program3053\EXPObjectActor.cpp">
-      <Filter>Source\program3053</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\program3053\EXPObjectActor.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\program3053\MyActor.cpp">
@@ -56,16 +44,16 @@
     <ClInclude Include="..\..\Source\program3053\MyActor.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\program3053\ObjectActorEXP.cpp">
+    <ClCompile Include="..\..\Source\program3053\MyPlayerController.cpp">
       <Filter>Source\program3053</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\program3053\ObjectActorEXP.h">
+    <ClInclude Include="..\..\Source\program3053\MyPlayerController.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\program3053\ObjectActorEXP1.cpp">
+    <ClCompile Include="..\..\Source\program3053\ObjectActor.cpp">
       <Filter>Source\program3053</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\program3053\ObjectActorEXP1.h">
+    <ClInclude Include="..\..\Source\program3053\ObjectActor.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <None Include="..\..\Source\program3053\program3053.Build.cs">
@@ -75,6 +63,12 @@
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\program3053.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\program3053Controller.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\program3053Controller.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\program3053\program3053GameMode.cpp">
@@ -93,17 +87,6 @@
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\program3053Projectile.h">
-      <Filter>Source\program3053</Filter>
-    </ClInclude>
-    <None Include="cpp.hint" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\program3053\ObjectActor.cpp">
-      <Filter>Source\program3053</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\program3053\ObjectActor.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
   </ItemGroup>
