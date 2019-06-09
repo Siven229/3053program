@@ -37,29 +37,29 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EXPMax_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_EXPMax;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_Level;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Level;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelMax_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_LevelMax;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_LevelMax;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelInitialization_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_LevelInitialization;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_LevelInitialization;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EXPMax_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EXPMax;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EXP_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_EXP;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_EXP;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HP_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FInt64PropertyParams NewProp_HP;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HP;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
@@ -106,47 +106,47 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData[] = {
-		{ "Category", "property" },
-		{ "ModuleRelativePath", "program3053Pawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax = { "EXPMax", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, EXPMax), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level_MetaData[] = {
 		{ "Category", "property" },
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, Level), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, Level), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax_MetaData[] = {
 		{ "Category", "property" },
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax = { "LevelMax", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, LevelMax), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax = { "LevelMax", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, LevelMax), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData[] = {
 		{ "Category", "property" },
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization = { "LevelInitialization", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, LevelInitialization), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization = { "LevelInitialization", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, LevelInitialization), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax = { "EXPMax", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, EXPMax), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP_MetaData[] = {
 		{ "Category", "property" },
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP = { "EXP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, EXP), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP = { "EXP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, EXP), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP_MetaData[] = {
 		{ "Category", "property" },
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FInt64PropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, HP), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, HP), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_FireSound_MetaData[] = {
 		{ "Category", "Audio" },
@@ -210,10 +210,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent = { "ShipMeshComponent", nullptr, (EPropertyFlags)0x00400000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, ShipMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aprogram3053Pawn_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_HP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_FireSound,
@@ -251,7 +251,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aprogram3053Pawn, 1792042755);
+	IMPLEMENT_CLASS(Aprogram3053Pawn, 3298628260);
 	template<> PROGRAM3053_API UClass* StaticClass<Aprogram3053Pawn>()
 	{
 		return Aprogram3053Pawn::StaticClass();

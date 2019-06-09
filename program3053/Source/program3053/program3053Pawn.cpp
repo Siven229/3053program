@@ -147,7 +147,7 @@ void Aprogram3053Pawn::ShotTimerExpired()
 void Aprogram3053Pawn::LevelUp()
 {
 	EXP = EXP - EXPMax;
-	EXPMax = EXPMax + 50;
+	EXPMax = EXPMax + 50.0f;
 	Level = Level + 1;
 }
 
@@ -180,12 +180,12 @@ void Aprogram3053Pawn::IsDead()
 
 void Aprogram3053Pawn::CalculateHealth()
 {
-	if (HP > 100)
+	if (HP > 100.0f)
 	{
-		HP = 100;
+		HP = 100.0f;
 		return;
 	}
-	else if (HP < 0 || HP == 0)
+	else if (HP < 0.f || HP == 0.f)
 	{
 		IsDead();
 		return;
@@ -205,7 +205,7 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 	//Super::NotifyActorBeginOverlap(OtherActor);
 	if (OtherActor->IsA(AObjectActor::StaticClass()))
 	{
-		EXP = EXP + 80;
+		EXP = EXP + 80.0f;
 		CalculateExperience();
 		if (Level == 3)
 		{
@@ -215,7 +215,7 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 	
 	else if (OtherActor->IsA(AActorHP::StaticClass()))
 	{
-		HP = HP - 40;
+		HP = HP - 40.0f;
 		CalculateHealth();
 	}
 }

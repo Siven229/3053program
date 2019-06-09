@@ -61,22 +61,22 @@ public:
 	void ShotTimerExpired();
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 HP = 100;
+	float HP = 100.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 EXP = 0; 
+	float EXP = 0.f; 
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 LevelInitialization = 1;
+	float EXPMax = 100.0f;
+	
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int32 LevelInitialization = 1;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 LevelMax = 10;
+	int32 LevelMax = 10;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 Level = 1;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int64 EXPMax = 100;
+	int32 Level = 1;
 
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
