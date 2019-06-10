@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x89810772,
+				0x4933E986,
 				0x7CFD973E,
 				METADATA_PARAMS(nullptr, 0)
 			};

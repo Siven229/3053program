@@ -1,4 +1,4 @@
-// PCH for D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+// PCH for D:\ue4\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -34,6 +34,7 @@
 #define _WIN32_WINNT 0x0601
 #define WINVER 0x0601
 #define PLATFORM_WINDOWS 1
+#define OVERRIDE_PLATFORM_HEADER_NAME Windows
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
 #define UE_IS_ENGINE_MODULE 1
@@ -208,4 +209,4 @@
 #define NETWORKREPLAYSTREAMING_API DLLIMPORT
 #define AUDIOMIXER_API DLLIMPORT
 #define UELIBSAMPLERATE_API DLLIMPORT
-#include "D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
+#include "D:\ue4\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"

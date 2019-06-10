@@ -61,6 +61,9 @@ public:
 	void ShotTimerExpired();
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float HPMax = 100.0f;
+	
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float HP = 100.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)

@@ -1,15 +1,20 @@
-﻿  Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\project\program3053\program3053.uproject" "D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 7.1117082 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] program3053.init.gen.cpp
-    [2/6] Weapon.cpp
-    [3/6] Weapon.gen.cpp
-    [4/6] UE4Editor-program3053-0002.lib
-      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.exp
-    [5/6] UE4Editor-program3053-0002.dll
-      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.suppressed.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.suppressed.exp
-    [6/6] program3053Editor.target
-  Total time in Parallel executor: 13.14 seconds
-  Total execution time: 21.76 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\profile\3053).
+  Creating makefile for program3053Editor (ini files are newer than makefile)
+  Parsing headers for program3053Editor
+    Running UnrealHeaderTool "D:\profile\3053\program3053\program3053.uproject" "D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 61.3225035 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 12 processes...
+    [1/9] program3053.init.gen.cpp
+    [2/9] ActorHP.cpp
+    [3/9] program3053GameMode.cpp
+    [4/9] program3053Pawn.gen.cpp
+    [5/9] program3053Controller.cpp
+    [6/9] program3053Pawn.cpp
+    [7/9] UE4Editor-program3053-0001.lib
+      正在创建库 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.lib 和对象 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.exp
+    [8/9] UE4Editor-program3053-0001.dll
+      正在创建库 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.lib 和对象 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.exp
+    [9/9] program3053Editor.target
+  Total time in Parallel executor: 509.08 seconds
+  Total execution time: 598.10 seconds
