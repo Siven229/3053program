@@ -1,0 +1,5 @@
+D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\Definitions.program3053.h
+D:\ue4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\ue4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\project\program3053\Source\program3053/Weapon.h
+d:\project\program3053\intermediate\build\win64\ue4editor\inc\program3053\Weapon.generated.h

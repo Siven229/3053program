@@ -1,70 +1,15 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\profile\3053).
-  Creating makefile for program3053Editor (no existing makefile)
-  Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\profile\3053\program3053\program3053.uproject" "D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 99.3895839 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 23 actions with 12 processes...
-    [1/23] Default.rc2
-    [2/23] SharedPCH.Engine.NonOptimized.cpp
-    [3/23] program3053.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [4/23] program3053Controller.gen.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [5/23] program3053GameMode.gen.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [6/23] program3053Pawn.gen.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [7/23] program3053Projectile.gen.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [8/23] MyActor.gen.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [9/23] program3053Projectile.cpp
-c1xx : error C3859: 未能创建 PCH 的虚拟内存
-    c1xx: note: 系统返回代码 1455: 页面文件太小，无法完成操作。
-    
-    
-    c1xx: note: 请访问 https://aka.ms/pch-help 了解更多详情
-c1xx : fatal error C1076: 编译器限制: 达到内部堆限制
-    [10/23] program3053.init.gen.cpp
-    [11/23] MyActor.cpp
-    [12/23] ObjectActor.cpp
-    [13/23] MyPlayerController.cpp
-    [14/23] ActorHP.cpp
-    [15/23] program3053GameMode.cpp
-    [16/23] ObjectActor.gen.cpp
-    [17/23] ActorHP.gen.cpp
-    [18/23] MyPlayerController.gen.cpp
-    [19/23] program3053Controller.cpp
-    [20/23] program3053Pawn.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: 命令“D:\My_program\UE_4.22\Engine\Build\BatchFiles\Build.bat program3053Editor Win64 DebugGame -Project="D:\profile\3053\program3053\program3053.uproject" -WaitMutex -FromMsBuild”已退出，代码为 5。请验证您是否拥有运行此命令的足够权限。
+﻿  Parsing headers for program3053Editor
+    Running UnrealHeaderTool "D:\project\program3053\program3053.uproject" "D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 7.1117082 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] program3053.init.gen.cpp
+    [2/6] Weapon.cpp
+    [3/6] Weapon.gen.cpp
+    [4/6] UE4Editor-program3053-0002.lib
+      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.exp
+    [5/6] UE4Editor-program3053-0002.dll
+      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.suppressed.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0002.suppressed.exp
+    [6/6] program3053Editor.target
+  Total time in Parallel executor: 13.14 seconds
+  Total execution time: 21.76 seconds

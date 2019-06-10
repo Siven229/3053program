@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\program3053.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4B704330-0949-432B-8A92-FC02DF107F41}</UniqueIdentifier>
+      <UniqueIdentifier>{A83CC771-9CE0-4F2A-8B37-3046B4A2C258}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\program3053.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B2B1F133-1E61-45B7-A0F4-378E0BEBA0FA}</UniqueIdentifier>
+      <UniqueIdentifier>{DAF29731-F9B6-43F4-B8B1-77C0C238E83B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\program3053">
-      <UniqueIdentifier>{8BFF26E9-1C42-4F33-875D-0D1A58855FDD}</UniqueIdentifier>
+      <UniqueIdentifier>{1A845424-7994-43CB-B0E5-7AD8F6EA1D26}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\program3053\ActorHP.cpp">
       <Filter>Source\program3053</Filter>
@@ -87,6 +87,12 @@
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\program3053Projectile.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\Weapon.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\Weapon.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
   </ItemGroup>

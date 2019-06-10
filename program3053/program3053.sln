@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{EE510B35-D6A6-41D9-A6FD-7C8C2F66B34E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{54CCF335-7B69-4D40-A49A-7B5D2CBD432B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{FB35E038-DC0C-4DDF-92DC-31BCEF9886F9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{F128BC72-1711-4D80-8CCB-05013F55905C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "program3053", "Intermediate\ProjectFiles\program3053.vcxproj", "{94A49A91-C5B0-4635-B9B7-0B4471EF3F5E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{12F77ADC-106E-49A6-8656-B854E4C08374}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{2AC0EE28-8173-480A-82AD-57753AFD563C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{41584549-4146-4719-8B6A-47DC80740FCA}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\My_program\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\My_program\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\ue4\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\ue4\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{12F77ADC-106E-49A6-8656-B854E4C08374} = {EE510B35-D6A6-41D9-A6FD-7C8C2F66B34E}
-		{94A49A91-C5B0-4635-B9B7-0B4471EF3F5E} = {FB35E038-DC0C-4DDF-92DC-31BCEF9886F9}
+		{12F77ADC-106E-49A6-8656-B854E4C08374} = {54CCF335-7B69-4D40-A49A-7B5D2CBD432B}
+		{94A49A91-C5B0-4635-B9B7-0B4471EF3F5E} = {F128BC72-1711-4D80-8CCB-05013F55905C}
 	EndGlobalSection
 EndGlobal
