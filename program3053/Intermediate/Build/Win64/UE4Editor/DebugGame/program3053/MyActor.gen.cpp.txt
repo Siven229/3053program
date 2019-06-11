@@ -1,5 +1,0 @@
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\profile\3053\program3053\Source\program3053/MyActor.h
-d:\profile\3053\program3053\intermediate\build\win64\ue4editor\inc\program3053\MyActor.generated.h

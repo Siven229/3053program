@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\program3053.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C8DB4C0D-0368-41E7-97C9-4837CDC3E391}</UniqueIdentifier>
+      <UniqueIdentifier>{931BE849-F5EE-4697-9458-59A4D5CBC0F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\program3053.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{97C70B8D-9FC3-4D5F-A2A9-5B60E22A3F44}</UniqueIdentifier>
+      <UniqueIdentifier>{528E07D1-9A71-4698-B048-F1B9F21F3000}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,42 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\program3053">
-      <UniqueIdentifier>{94F6EC56-673B-475B-B305-4D3A61A3F292}</UniqueIdentifier>
+      <UniqueIdentifier>{1A22F535-39D9-4297-850A-A6E0FADEA406}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\program3053\ActorHP.cpp">
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\ActorHP.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ActorHPLarge.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ActorHPLarge.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ActorHPLittle.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ActorHPLittle.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ActorHPMiddle.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ActorHPMiddle.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ActorTrap.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ActorTrap.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\AiCharacter.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\AiCharacter.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\program3053\MyActor.cpp">
@@ -54,6 +84,24 @@
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\ObjectActor.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ObjectActorLarge.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ObjectActorLarge.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ObjectActorLittle.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ObjectActorLittle.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\program3053\ObjectActorMiddle.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\program3053\ObjectActorMiddle.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <None Include="..\..\Source\program3053\program3053.Build.cs">

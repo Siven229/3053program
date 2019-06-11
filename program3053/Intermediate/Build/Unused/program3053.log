@@ -1,20 +1,13 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\profile\3053).
-  Creating makefile for program3053Editor (ini files are newer than makefile)
-  Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\profile\3053\program3053\program3053.uproject" "D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 61.3225035 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 12 processes...
-    [1/9] program3053.init.gen.cpp
-    [2/9] ActorHP.cpp
-    [3/9] program3053GameMode.cpp
-    [4/9] program3053Pawn.gen.cpp
-    [5/9] program3053Controller.cpp
-    [6/9] program3053Pawn.cpp
-    [7/9] UE4Editor-program3053-0001.lib
-      正在创建库 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.lib 和对象 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.exp
-    [8/9] UE4Editor-program3053-0001.dll
-      正在创建库 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.lib 和对象 D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0001.suppressed.exp
-    [9/9] program3053Editor.target
-  Total time in Parallel executor: 509.08 seconds
-  Total execution time: 598.10 seconds
+﻿  Parsing headers for program3053Editor
+    Running UnrealHeaderTool "D:\Epic\UE_4.22\program3053_UE\program3053\program3053.uproject" "D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 5.6488423 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (D:\vs\annnn\annnn\vs\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] AiCharacter.cpp
+    [2/4] UE4Editor-program3053-0003.lib
+      正在创建库 D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0003.lib 和对象 D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0003.exp
+    [3/4] UE4Editor-program3053-0003.dll
+      正在创建库 D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0003.suppressed.lib 和对象 D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053-0003.suppressed.exp
+    [4/4] program3053Editor.target
+  Total time in Parallel executor: 23.80 seconds
+  Total execution time: 30.30 seconds

@@ -2,6 +2,13 @@
 
 #include "program3053Pawn.h"
 #include "program3053Projectile.h"
+#include "ObjectActorLittle.h"
+#include "ObjectActorMiddle.h"
+#include "ObjectActorLarge.h"
+#include "ActorHPLittle.h"
+#include "ActorHPMiddle.h"
+#include "ActorHPLarge.h"
+#include "ActorTrap.h"
 #include "TimerManager.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Camera/CameraComponent.h"
@@ -195,27 +202,48 @@ void Aprogram3053Pawn::CalculateHealth()
 	    return;
 }
 
-/* void Aprogram3053Pawn::CollisionHP(AActor * OtherActor)
-{ 
-	//Super::NotifyActorBeginOverlap(OtherActor);
-	Destroy();
-}*/
+
 void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 {
-	//Super::NotifyActorBeginOverlap(OtherActor);
-	if (OtherActor->IsA(AObjectActor::StaticClass()))
+	if (OtherActor->IsA(AObjectActorLittle::StaticClass()))
 	{
-		EXP = EXP + 80.0f;
+		EXP = EXP + 10.0f;
 		CalculateExperience();
-		if (Level == 3)
-		{
-			//UE_LOG(LogTemp, Warning, TEXT("you are dead,your level :%d"), &Level);
-		}
+	}
+
+	else if (OtherActor->IsA(AObjectActorMiddle::StaticClass()))
+	{
+		EXP = EXP + 20.0f;
+		CalculateExperience();
 	}
 	
-	else if (OtherActor->IsA(AActorHP::StaticClass()))
+	else if (OtherActor->IsA(AObjectActorLarge::StaticClass()))
+	{
+		EXP = EXP + 40.0f;
+		CalculateExperience();
+	}
+	else if (OtherActor->IsA(AActorHPLittle::StaticClass()))
+	{
+		HP = HP + 10.0f;
+		CalculateHealth();
+	}
+
+	else if (OtherActor->IsA(AActorHPMiddle::StaticClass()))
+	{
+		HP = HP + 20.0f;
+		CalculateHealth();
+	}
+
+	else if (OtherActor->IsA(AActorHPLarge::StaticClass()))
+	{
+		HP = HP + 20.0f;
+		CalculateHealth();
+	}
+
+	else if (OtherActor->IsA(AActorTrap::StaticClass()))
 	{
 		HP = HP - 40.0f;
 		CalculateHealth();
 	}
 }
+

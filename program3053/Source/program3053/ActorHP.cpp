@@ -42,6 +42,6 @@ void AActorHP::Tick(float DeltaTime)
 
 void AActorHP::NotifyActorBeginOverlap(AActor * OtherActor)//ºÏ≤‚ «∑Ò÷ÿµ˛
 {
-	//Super::NotifyActorBeginOverlap(OtherActor);
+	
 	Destroy();
 }

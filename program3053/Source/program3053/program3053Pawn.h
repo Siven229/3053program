@@ -81,6 +81,7 @@ public:
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 Level = 1;
 
+
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
 	static const FName MoveRightBinding;
@@ -93,6 +94,7 @@ private:
 	/* Flag to control firing  */
 	uint32 bCanFire : 1;
 
+
 	/** Handle for efficient management of ShotTimerExpired timer */
 	FTimerHandle TimerHandle_ShotTimerExpired;
 
@@ -104,7 +106,6 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	
-	void CollisionHP(AActor * HPP);
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 
