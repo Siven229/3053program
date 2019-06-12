@@ -150,12 +150,21 @@ void Aprogram3053Pawn::ShotTimerExpired()
 	bCanFire = true;
 }
 */
-
+void Aprogram3053Pawn::IncreaseSkillPoint()
+{
+	SkillPoint = SkillPoint + 1;
+}
+void Aprogram3053Pawn::DecreaseSkillPoint()
+{
+	SkillPoint = SkillPoint - 1;
+}
 void Aprogram3053Pawn::LevelUp()
 {
+	SkillPoint = 0;
 	EXP = EXP - EXPMax;
 	EXPMax = EXPMax + 50.0f;
 	Level = Level + 1;
+	IncreaseSkillPoint();
 }
 
 void Aprogram3053Pawn::CalculateLevel()
@@ -207,42 +216,42 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 {
 	if (OtherActor->IsA(AObjectActorLittle::StaticClass()))
 	{
-		EXP = EXP + 10.0f;
+		EXP = EXP + EXPImproveLittle;
 		CalculateExperience();
 	}
 
 	else if (OtherActor->IsA(AObjectActorMiddle::StaticClass()))
 	{
-		EXP = EXP + 20.0f;
+		EXP = EXP + EXPImproveMiddle;
 		CalculateExperience();
 	}
 	
 	else if (OtherActor->IsA(AObjectActorLarge::StaticClass()))
 	{
-		EXP = EXP + 40.0f;
+		EXP = EXP + EXPImproveLarge;
 		CalculateExperience();
 	}
 	else if (OtherActor->IsA(AActorHPLittle::StaticClass()))
 	{
-		HP = HP + 10.0f;
+		HP = HP + HPRecoveryLittle;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorHPMiddle::StaticClass()))
 	{
-		HP = HP + 20.0f;
+		HP = HP + HPRecoveryMiddle;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorHPLarge::StaticClass()))
 	{
-		HP = HP + 20.0f;
+		HP = HP + HPRecoveryLarge;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorTrap::StaticClass()))
 	{
-		HP = HP - 40.0f;
+		HP = HP - Damage;
 		CalculateHealth();
 	}
 }
