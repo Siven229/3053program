@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHPMiddle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AActorHPMiddle, 3479536602);
+	IMPLEMENT_CLASS(AActorHPMiddle, 1541241927);
 	template<> PROGRAM3053_API UClass* StaticClass<AActorHPMiddle>()
 	{
 		return AActorHPMiddle::StaticClass();

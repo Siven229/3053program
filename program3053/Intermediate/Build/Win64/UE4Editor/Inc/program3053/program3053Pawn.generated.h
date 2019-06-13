@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef PROGRAM3053_program3053Pawn_generated_h
 #error "program3053Pawn.generated.h already included, missing '#pragma once' in program3053Pawn.h"
 #endif
@@ -21,6 +22,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->DecreaseSkillPoint(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFireShot) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FireShot(Z_Param_FireDirection); \
+		P_NATIVE_END; \
 	}
 
 
@@ -31,6 +41,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DecreaseSkillPoint(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFireShot) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FireShot(Z_Param_FireDirection); \
 		P_NATIVE_END; \
 	}
 

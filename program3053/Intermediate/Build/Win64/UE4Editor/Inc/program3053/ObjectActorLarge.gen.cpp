@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeObjectActorLarge() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObjectActorLarge, 1306060102);
+	IMPLEMENT_CLASS(AObjectActorLarge, 683296015);
 	template<> PROGRAM3053_API UClass* StaticClass<AObjectActorLarge>()
 	{
 		return AObjectActorLarge::StaticClass();

@@ -30,9 +30,12 @@ class Aprogram3053Pawn : public APawn
 public:
 	Aprogram3053Pawn();
 
-	
+	FVector FireDirection;
 
-	
+	TSubclassOf<AActor> BPMyActorClass;
+
+	UClass* bpClass;
+
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite )
 	FVector GunOffset;
@@ -49,12 +52,17 @@ public:
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
 
+	/** Sound to play each time we hurt */
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* HurtSound;
+
 	// Begin Actor Interface
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End Actor Interface
 
 	/* Fire a shot in the specified direction */
+	UFUNCTION(BluePrintCallable,Category="Function")
 	void FireShot(FVector FireDirection);
 
 	/* Handler for the fire timer expiry */
@@ -132,6 +140,10 @@ public:
 	
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
+
+	void CanShoot();
+
+	void CanNotShoot();
 
 	void IsDead();
 

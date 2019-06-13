@@ -4,6 +4,9 @@
 #include "ObjectActor.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Sound/SoundBase.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AObjectActor::AObjectActor()
@@ -16,7 +19,9 @@ AObjectActor::AObjectActor()
 	MeshComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	RootComponent = MeshComp;
 
-
+	// Cache our sound effect
+	static ConstructorHelpers::FObjectFinder<USoundBase> EXPAudio(TEXT("/Game/TwinStickCPP/Audio/EXP1_Cue"));
+	EXPSound = EXPAudio.Object;
 
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);//设置为仅查询
@@ -43,6 +48,11 @@ void AObjectActor::Tick(float DeltaTime)
 void AObjectActor::NotifyActorBeginOverlap(AActor * OtherActor)//检测是否重叠
 {
 	Super::NotifyActorBeginOverlap(OtherActor);	
+	// try and play the sound if specified
+	if (EXPSound != nullptr)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, EXPSound, GetActorLocation());
+	}
 	Destroy();
 }
 

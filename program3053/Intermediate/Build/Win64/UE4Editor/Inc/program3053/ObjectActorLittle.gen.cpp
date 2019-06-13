@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeObjectActorLittle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObjectActorLittle, 3712393293);
+	IMPLEMENT_CLASS(AObjectActorLittle, 3589118453);
 	template<> PROGRAM3053_API UClass* StaticClass<AObjectActorLittle>()
 	{
 		return AObjectActorLittle::StaticClass();
