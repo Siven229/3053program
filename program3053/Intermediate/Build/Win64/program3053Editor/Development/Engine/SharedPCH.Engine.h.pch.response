@@ -188,17 +188,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine
-/Yc"D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\profile\3053\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine
+/Yc"D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

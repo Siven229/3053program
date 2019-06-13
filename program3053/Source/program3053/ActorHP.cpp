@@ -4,6 +4,9 @@
 #include "program3053Pawn.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Sound/SoundBase.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AActorHP::AActorHP()
@@ -16,7 +19,9 @@ AActorHP::AActorHP()
 	MeshComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	RootComponent = MeshComp;
 
-
+	// Cache our sound effect
+	static ConstructorHelpers::FObjectFinder<USoundBase> HPAudio(TEXT("/Game/TwinStickCPP/Audio/HP1_Cue"));
+	HPSound = HPAudio.Object;
 
 	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	SphereComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);//设置为仅查询
@@ -42,6 +47,10 @@ void AActorHP::Tick(float DeltaTime)
 
 void AActorHP::NotifyActorBeginOverlap(AActor * OtherActor)//检测是否重叠
 {
-	
+	// try and play the sound if specified
+	if (HPSound != nullptr)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, HPSound, GetActorLocation());
+	}
 	Destroy();
 }

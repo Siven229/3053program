@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHPLittle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AActorHPLittle, 2459525639);
+	IMPLEMENT_CLASS(AActorHPLittle, 560701177);
 	template<> PROGRAM3053_API UClass* StaticClass<AActorHPLittle>()
 	{
 		return AActorHPLittle::StaticClass();

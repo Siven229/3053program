@@ -33,6 +33,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	/** Sound to play each time HPpack destory */
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* EXPSound;
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 

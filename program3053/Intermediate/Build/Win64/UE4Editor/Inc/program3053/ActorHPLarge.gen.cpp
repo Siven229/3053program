@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHPLarge() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AActorHPLarge, 3894730156);
+	IMPLEMENT_CLASS(AActorHPLarge, 2597711370);
 	template<> PROGRAM3053_API UClass* StaticClass<AActorHPLarge>()
 	{
 		return AActorHPLarge::StaticClass();

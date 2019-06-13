@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeObjectActorMiddle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AObjectActorMiddle, 3962385015);
+	IMPLEMENT_CLASS(AObjectActorMiddle, 1896061273);
 	template<> PROGRAM3053_API UClass* StaticClass<AObjectActorMiddle>()
 	{
 		return AObjectActorMiddle::StaticClass();

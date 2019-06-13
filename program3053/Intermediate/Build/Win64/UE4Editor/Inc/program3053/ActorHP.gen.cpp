@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHP() {}
 	PROGRAM3053_API UClass* Z_Construct_UClass_AActorHP();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_program3053();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
@@ -33,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeActorHP() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPSound;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SphereComp_MetaData[];
 #endif
@@ -56,6 +61,14 @@ void EmptyLinkFunctionForGeneratedCodeActorHP() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorHP_Statics::NewProp_HPSound_MetaData[] = {
+		{ "Category", "Audio" },
+		{ "ModuleRelativePath", "ActorHP.h" },
+		{ "ToolTip", "Sound to play each time HPpack destory" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActorHP_Statics::NewProp_HPSound = { "HPSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActorHP, HPSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActorHP_Statics::NewProp_HPSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AActorHP_Statics::NewProp_HPSound_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorHP_Statics::NewProp_SphereComp_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -73,6 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHP() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AActorHP_Statics::NewProp_MeshComp = { "MeshComp", nullptr, (EPropertyFlags)0x00200800000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AActorHP, MeshComp), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AActorHP_Statics::NewProp_MeshComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AActorHP_Statics::NewProp_MeshComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AActorHP_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorHP_Statics::NewProp_HPSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorHP_Statics::NewProp_SphereComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AActorHP_Statics::NewProp_MeshComp,
 	};
@@ -103,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeActorHP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AActorHP, 370439500);
+	IMPLEMENT_CLASS(AActorHP, 2038434306);
 	template<> PROGRAM3053_API UClass* StaticClass<AActorHP>()
 	{
 		return AActorHP::StaticClass();
