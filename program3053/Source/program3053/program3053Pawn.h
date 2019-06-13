@@ -67,31 +67,10 @@ public:
 	float HP = 100.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float HPRecoveryLittle = 10.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float HPRecoveryMiddle = 20.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float HPRecoveryLarge = 40.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float Damage = 40.0f;
-	
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float EXP = 0.f; 
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float EXPMax = 100.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float EXPImproveLittle = 10.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float EXPImproveMiddle = 20.0f;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float EXPImproveLarge = 40.0f;
 	
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 LevelInitialization = 1;
@@ -101,9 +80,6 @@ public:
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 Level = 1;
-
-	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	int32 SkillPoint = 0;
 
 
 	// Static names for axis bindings
@@ -142,9 +118,4 @@ public:
 	void CalculateExperience();
 
 	void CalculateLevel();
-
-	void IncreaseSkillPoint();
-
-	UFUNCTION(BlueprintCallable, Category = property)
-	void DecreaseSkillPoint();
 };

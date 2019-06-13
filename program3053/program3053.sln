@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{E598E7D6-2574-4B25-9DEC-087BA387C2C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{981B358D-9C52-49F7-8A6D-8436EAA01314}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{C03B2612-CF9D-4755-B92B-7BA7EC742518}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{A6516E16-6354-42F2-B50C-EB71F96B6BA6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{6D138189-16B0-4032-BD9E-66D7DEF2901A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "program3053", "Intermediate\ProjectFiles\program3053.vcxproj", "{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{B5D5D5E8-0DF3-4D6E-B712-3404E1884C4C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{AD16B6A5-442E-4E3D-89E0-DEA31A5A6047}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\My_program\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\My_program\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6D138189-16B0-4032-BD9E-66D7DEF2901A} = {E598E7D6-2574-4B25-9DEC-087BA387C2C0}
-		{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4} = {C03B2612-CF9D-4755-B92B-7BA7EC742518}
+		{6D138189-16B0-4032-BD9E-66D7DEF2901A} = {981B358D-9C52-49F7-8A6D-8436EAA01314}
+		{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4} = {A6516E16-6354-42F2-B50C-EB71F96B6BA6}
 	EndGlobalSection
 EndGlobal
