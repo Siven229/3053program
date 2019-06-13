@@ -30,9 +30,12 @@ class Aprogram3053Pawn : public APawn
 public:
 	Aprogram3053Pawn();
 
-	
+	FVector FireDirection;
 
-	
+	TSubclassOf<AActor> BPMyActorClass;
+
+	UClass* bpClass;
+
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite )
 	FVector GunOffset;
@@ -49,12 +52,17 @@ public:
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
 
+	/** Sound to play each time we hurt */
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* HurtSound;
+
 	// Begin Actor Interface
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End Actor Interface
 
 	/* Fire a shot in the specified direction */
+	UFUNCTION(BluePrintCallable,Category="Function")
 	void FireShot(FVector FireDirection);
 
 	/* Handler for the fire timer expiry */
@@ -67,10 +75,31 @@ public:
 	float HP = 100.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float HPRecoveryLittle = 10.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float HPRecoveryMiddle = 20.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float HPRecoveryLarge = 40.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float Damage = 40.0f;
+	
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float EXP = 0.f; 
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float EXPMax = 100.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float EXPImproveLittle = 10.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float EXPImproveMiddle = 20.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float EXPImproveLarge = 40.0f;
 	
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 LevelInitialization = 1;
@@ -80,6 +109,9 @@ public:
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 Level = 1;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	int32 SkillPoint = 0;
 
 
 	// Static names for axis bindings
@@ -109,6 +141,10 @@ public:
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 
+	void CanShoot();
+
+	void CanNotShoot();
+
 	void IsDead();
 
 	void CalculateHealth();
@@ -118,4 +154,9 @@ public:
 	void CalculateExperience();
 
 	void CalculateLevel();
+
+	void IncreaseSkillPoint();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void DecreaseSkillPoint();
 };

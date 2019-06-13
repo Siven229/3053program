@@ -22,15 +22,20 @@
 #include "iostream"
 
 
-
-
 const FName Aprogram3053Pawn::MoveForwardBinding("MoveForward");
 const FName Aprogram3053Pawn::MoveRightBinding("MoveRight");
-const FName Aprogram3053Pawn::FireForwardBinding("FireForward");
-const FName Aprogram3053Pawn::FireRightBinding("FireRight");
 
 Aprogram3053Pawn::Aprogram3053Pawn()
-{	
+{
+	static ConstructorHelpers::FClassFinder<Aprogram3053Projectile> BP_Arrow(TEXT("Blueprint'/Game/TwinStickCPP/BlueprintClass/Arrow.Arrow_C'"));
+	if (BP_Arrow.Succeeded())
+	{
+
+		BPMyActorClass = BP_Arrow.Class;
+
+	}
+
+
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/TwinStick/Meshes/TwinStickUFO.TwinStickUFO"));
 	// Create the mesh component
 	ShipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
@@ -39,8 +44,11 @@ Aprogram3053Pawn::Aprogram3053Pawn()
 	ShipMeshComponent->SetStaticMesh(ShipMesh.Object);
 	
 	// Cache our sound effect
-	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStick/Audio/TwinStickFire.TwinStickFire"));
+	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStickCPP/Audio/BowShoot_Cue"));
 	FireSound = FireAudio.Object;
+
+	static ConstructorHelpers::FObjectFinder<USoundBase> HurtAudio(TEXT("/Game/TwinStickCPP/Audio/Hurt_Cue"));
+	HurtSound = HurtAudio.Object;
 
 	// Create a camera boom...
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -56,22 +64,33 @@ Aprogram3053Pawn::Aprogram3053Pawn()
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
 
 	// Movement
-	MoveSpeed = 1000.0f;
+	MoveSpeed = 600.0f;
 	// Weapon
-	GunOffset = FVector(90.f, 0.f, 0.f);
-	FireRate = 0.1f;
-	bCanFire = true;
+	GunOffset = FVector(180.f, 0.f, 0.f);
+	FireRate = 1.0f;
+	bCanFire = false;
+
 }
 
+void Aprogram3053Pawn::CanShoot()
+{
+	bCanFire = true;
+	FireShot(FireDirection);
+}
+
+void Aprogram3053Pawn::CanNotShoot()
+{
+	bCanFire = false;
+}
 
 void Aprogram3053Pawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	check(PlayerInputComponent);
-
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
-	//PlayerInputComponent->BindAxis(FireForwardBinding);
+	PlayerInputComponent->BindAction("FISD", EInputEvent::IE_Pressed, this, &Aprogram3053Pawn::CanShoot);
+	PlayerInputComponent->BindAction("FISD", EInputEvent::IE_Released, this, &Aprogram3053Pawn::CanNotShoot);
 	//PlayerInputComponent->BindAxis(FireRightBinding);
 }
 
@@ -101,18 +120,14 @@ void Aprogram3053Pawn::Tick(float DeltaSeconds)
 			RootComponent->MoveComponent(Deflection, NewRotation, true);
 		}
 	}
-	
-	// Create fire direction vector
-	/*
-	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
-	const float FireRightValue = GetInputAxisValue(FireRightBinding);
-	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 
+	FireDirection = GetActorForwardVector();
+	FireDirection.Z = 0;
 	// Try and fire a shot
-	FireShot(FireDirection);
-	*/
+	//FireShot(FireDirection);
 }
-/*
+
+
 void Aprogram3053Pawn::FireShot(FVector FireDirection)
 {
 	// If it's ok to fire again
@@ -128,11 +143,11 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 			UWorld* const World = GetWorld();
 			if (World != NULL)
 			{
+				FActorSpawnParameters SpawnInfo;
 				// spawn the projectile
-				World->SpawnActor<Aprogram3053Projectile>(SpawnLocation, FireRotation);
+				World->SpawnActor<Aprogram3053Projectile>(BPMyActorClass, SpawnLocation, FireRotation,SpawnInfo);
 			}
 
-			bCanFire = false;
 			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &Aprogram3053Pawn::ShotTimerExpired, FireRate);
 
 			// try and play the sound if specified
@@ -140,22 +155,32 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 			{
 				UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 			}
-
 			bCanFire = false;
 		}
 	}
 }
-void Aprogram3053Pawn::ShotTimerExpired()
-{
+
+void Aprogram3053Pawn::ShotTimerExpired() {
 	bCanFire = true;
 }
-*/
+
+void Aprogram3053Pawn::IncreaseSkillPoint()
+{
+	SkillPoint = SkillPoint + 1;
+}
+
+void Aprogram3053Pawn::DecreaseSkillPoint()
+{
+	SkillPoint = SkillPoint - 1;
+}
 
 void Aprogram3053Pawn::LevelUp()
 {
+	SkillPoint = 0;
 	EXP = EXP - EXPMax;
 	EXPMax = EXPMax + 50.0f;
 	Level = Level + 1;
+	IncreaseSkillPoint();
 }
 
 void Aprogram3053Pawn::CalculateLevel()
@@ -207,42 +232,47 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 {
 	if (OtherActor->IsA(AObjectActorLittle::StaticClass()))
 	{
-		EXP = EXP + 10.0f;
+		EXP = EXP + EXPImproveLittle;
 		CalculateExperience();
 	}
 
 	else if (OtherActor->IsA(AObjectActorMiddle::StaticClass()))
 	{
-		EXP = EXP + 20.0f;
+		EXP = EXP + EXPImproveMiddle;
 		CalculateExperience();
 	}
 	
 	else if (OtherActor->IsA(AObjectActorLarge::StaticClass()))
 	{
-		EXP = EXP + 40.0f;
+		EXP = EXP + EXPImproveLarge;
 		CalculateExperience();
 	}
 	else if (OtherActor->IsA(AActorHPLittle::StaticClass()))
 	{
-		HP = HP + 10.0f;
+		HP = HP + HPRecoveryLittle;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorHPMiddle::StaticClass()))
 	{
-		HP = HP + 20.0f;
+		HP = HP + HPRecoveryMiddle;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorHPLarge::StaticClass()))
 	{
-		HP = HP + 20.0f;
+		HP = HP + HPRecoveryLarge;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AActorTrap::StaticClass()))
 	{
-		HP = HP - 40.0f;
+		// try and play the sound if specified
+		if (HurtSound != nullptr)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, HurtSound, GetActorLocation());
+		}
+		HP = HP - Damage;
 		CalculateHealth();
 	}
 }

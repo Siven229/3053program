@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROGRAM3053_program3053Controller_generated_h
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_INCLASS_NO_PURE_DECLS \
+#define program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS
+#define program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define program3053_Source_program3053_program3053Controller_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAprogram3053Controller(); \
 	friend struct Z_Construct_UClass_Aprogram3053Controller_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(Aprogram3053Controller)
 
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_INCLASS \
+#define program3053_Source_program3053_program3053Controller_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAprogram3053Controller(); \
 	friend struct Z_Construct_UClass_Aprogram3053Controller_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(Aprogram3053Controller)
 
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_STANDARD_CONSTRUCTORS \
+#define program3053_Source_program3053_program3053Controller_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API Aprogram3053Controller(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aprogram3053Controller) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_ENHANCED_CONSTRUCTORS \
+#define program3053_Source_program3053_program3053Controller_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API Aprogram3053Controller(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Aprogram3053Controller); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Aprogram3053Controller)
 
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_12_PROLOG
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_GENERATED_BODY_LEGACY \
+#define program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET
+#define program3053_Source_program3053_program3053Controller_h_12_PROLOG
+#define program3053_Source_program3053_program3053Controller_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_INCLASS \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_STANDARD_CONSTRUCTORS \
+	program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET \
+	program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS \
+	program3053_Source_program3053_program3053Controller_h_15_INCLASS \
+	program3053_Source_program3053_program3053Controller_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define program3053_UE_program3053_Source_program3053_program3053Controller_h_15_GENERATED_BODY \
+#define program3053_Source_program3053_program3053Controller_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_INCLASS_NO_PURE_DECLS \
-	program3053_UE_program3053_Source_program3053_program3053Controller_h_15_ENHANCED_CONSTRUCTORS \
+	program3053_Source_program3053_program3053Controller_h_15_PRIVATE_PROPERTY_OFFSET \
+	program3053_Source_program3053_program3053Controller_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	program3053_Source_program3053_program3053Controller_h_15_INCLASS_NO_PURE_DECLS \
+	program3053_Source_program3053_program3053Controller_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -86,7 +86,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROGRAM3053_API UClass* StaticClass<class Aprogram3053Controller>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID program3053_UE_program3053_Source_program3053_program3053Controller_h
+#define CURRENT_FILE_ID program3053_Source_program3053_program3053Controller_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
