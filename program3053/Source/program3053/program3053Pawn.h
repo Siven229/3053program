@@ -48,6 +48,9 @@ public:
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 	float MoveSpeed;
 
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float AddMoveSpeed = 0.f;
+
 	/** Sound to play each time we fire */
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
@@ -101,6 +104,9 @@ public:
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float EXPImproveLarge = 40.0f;
 	
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float DefensivePower = 0.f;
+
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 LevelInitialization = 1;
 
@@ -159,4 +165,22 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = property)
 	void DecreaseSkillPoint();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseMoveSpeed();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseHPMax();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseAcquiredEXP();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseAcquiredHP();
+
+	/*UNCTION(BlueprintCallable, Category = property)
+	void IncreaseDefensivePower();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseDoubleDamagePossibility();*/
 };

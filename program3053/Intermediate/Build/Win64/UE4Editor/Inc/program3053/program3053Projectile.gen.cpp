@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 	PROGRAM3053_API UClass* Z_Construct_UClass_Aprogram3053Projectile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_program3053();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Projectile_OnHit();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -29,9 +30,33 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 	{
 		UClass* Class = Aprogram3053Projectile::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "IncreaseInitialLifeSpan", &Aprogram3053Projectile::execIncreaseInitialLifeSpan },
 			{ "OnHit", &Aprogram3053Projectile::execOnHit },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Aprogram3053Projectile, nullptr, "IncreaseInitialLifeSpan", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_Aprogram3053Projectile_OnHit_Statics
 	{
@@ -118,6 +143,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AddInitialLifeSpan_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AddInitialLifeSpan;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
@@ -134,6 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_program3053,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_Aprogram3053Projectile_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_Aprogram3053Projectile_IncreaseInitialLifeSpan, "IncreaseInitialLifeSpan" }, // 531882358
 		{ &Z_Construct_UFunction_Aprogram3053Projectile_OnHit, "OnHit" }, // 3779114312
 	};
 #if WITH_METADATA
@@ -142,6 +172,13 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 		{ "ModuleRelativePath", "program3053Projectile.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_AddInitialLifeSpan_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_AddInitialLifeSpan = { "AddInitialLifeSpan", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Projectile, AddInitialLifeSpan), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_AddInitialLifeSpan_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_AddInitialLifeSpan_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -163,6 +200,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMesh = { "ProjectileMesh", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Projectile, ProjectileMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aprogram3053Projectile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_AddInitialLifeSpan,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Projectile_Statics::NewProp_ProjectileMesh,
 	};
@@ -193,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Projectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aprogram3053Projectile, 2147872359);
+	IMPLEMENT_CLASS(Aprogram3053Projectile, 1364417676);
 	template<> PROGRAM3053_API UClass* StaticClass<Aprogram3053Projectile>()
 	{
 		return Aprogram3053Projectile::StaticClass();

@@ -30,7 +30,7 @@ Aprogram3053Projectile::Aprogram3053Projectile()
 	ProjectileMovement->ProjectileGravityScale = 0.f; // No gravity
 
 	// Die after 3 seconds by default
-	InitialLifeSpan = 1.0f;
+	InitialLifeSpan = 1.0f + AddInitialLifeSpan;
 }
 
 void Aprogram3053Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
@@ -41,5 +41,15 @@ void Aprogram3053Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherAc
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 20.0f, GetActorLocation());
 	}
  
+	Destroy();
+}
+
+void Aprogram3053Projectile::IncreaseInitialLifeSpan()
+{
+	AddInitialLifeSpan += 0.2f;
+}
+
+void Aprogram3053Projectile::NotifyActorBeginOverlap(AActor * OtherActor)
+{
 	Destroy();
 }

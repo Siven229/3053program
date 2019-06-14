@@ -5,6 +5,9 @@
 #include "program3053Projectile.h"
 #include "TimerManager.h"
 #include "Components/StaticMeshComponent.h"
+#include "ctime"
+#include "cstdlib"
+#define random(a,b) (rand()%(b-a+1)+a)
 
 // Sets default values
 AAiCharacter::AAiCharacter()
@@ -58,3 +61,51 @@ void AAiCharacter::ShotTimerExpired()
 	bCanFire = true;
 }
 
+void AAiCharacter::IsDead()
+{
+	Destroy();
+}
+
+void AAiCharacter::CalculateHealth()
+{
+	if (AIHP > 100.0f)
+	{
+		AIHP = 100.0f;
+		return;
+	}
+	else if (AIHP < 0.f || AIHP == 0.f)
+	{
+		IsDead();
+		return;
+	}
+	else
+		AIHP = AIHP;
+	return;
+}
+
+float AAiCharacter::DoubleDamageProbability()
+{
+	int RandNumber = 0;
+	srand(time(0));
+	RandNumber = random(1, 100);
+	if (RandNumber >= 1 && RandNumber <= ProbabilitySimulation * 10)
+	{
+		return 1.4;
+	}
+	else return 1;
+}
+
+void AAiCharacter::IncreaseDoubleDamageProbability()
+{
+	ProbabilitySimulation += 1.0f;
+}
+
+void AAiCharacter::NotifyActorBeginOverlap(AActor * OtherActor)
+{
+	if (OtherActor->IsA(Aprogram3053Projectile::StaticClass()))
+	{
+		AIHP -= ArrowInjury * DoubleDamageProbability();
+		CalculateHealth();
+	}
+
+}

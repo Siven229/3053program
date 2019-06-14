@@ -19,6 +19,14 @@ struct FHitResult;
 
 #define program3053_Source_program3053_program3053Projectile_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIncreaseInitialLifeSpan) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseInitialLifeSpan(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
@@ -34,6 +42,14 @@ struct FHitResult;
 
 
 #define program3053_Source_program3053_program3053Projectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIncreaseInitialLifeSpan) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseInitialLifeSpan(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \

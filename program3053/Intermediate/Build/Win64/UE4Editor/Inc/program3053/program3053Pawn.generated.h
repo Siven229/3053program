@@ -16,6 +16,38 @@ struct FVector;
 
 #define program3053_Source_program3053_program3053Pawn_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIncreaseAcquiredHP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseAcquiredHP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseAcquiredEXP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseAcquiredEXP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseHPMax) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseHPMax(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseMoveSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseMoveSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDecreaseSkillPoint) \
 	{ \
 		P_FINISH; \
@@ -35,6 +67,38 @@ struct FVector;
 
 
 #define program3053_Source_program3053_program3053Pawn_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIncreaseAcquiredHP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseAcquiredHP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseAcquiredEXP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseAcquiredEXP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseHPMax) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseHPMax(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseMoveSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseMoveSpeed(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDecreaseSkillPoint) \
 	{ \

@@ -1,0 +1,3 @@
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

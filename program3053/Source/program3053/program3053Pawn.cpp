@@ -64,7 +64,7 @@ Aprogram3053Pawn::Aprogram3053Pawn()
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
 
 	// Movement
-	MoveSpeed = 600.0f;
+	MoveSpeed = 600.0f + AddMoveSpeed;
 	// Weapon
 	GunOffset = FVector(180.f, 0.f, 0.f);
 	FireRate = 1.0f;
@@ -159,13 +159,41 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 		}
 	}
 }
-
 void Aprogram3053Pawn::ShotTimerExpired() {
 	bCanFire = true;
 }
 
+void Aprogram3053Pawn::IncreaseMoveSpeed()
+{
+	AddMoveSpeed += 300.0f;
+}
+
+void Aprogram3053Pawn::IncreaseHPMax()
+{
+	HPMax += 40.0f;
+	HP += 40.0f;
+}
+
+void Aprogram3053Pawn::IncreaseAcquiredEXP()
+{
+	EXPImproveLittle += 10.0f;
+	EXPImproveMiddle += 10.0f;
+	EXPImproveLarge += 10.0f;
+}
+
+void Aprogram3053Pawn::IncreaseAcquiredHP()
+{
+	HPRecoveryLittle += 10.0f;
+	HPRecoveryMiddle += 10.0f;
+	HPRecoveryLarge += 10.0f;
+}
+
 void Aprogram3053Pawn::IncreaseSkillPoint()
 {
+	if (SkillPoint > 0)
+	{
+		SkillPoint = 0;
+	}
 	SkillPoint = SkillPoint + 1;
 }
 
@@ -174,9 +202,10 @@ void Aprogram3053Pawn::DecreaseSkillPoint()
 	SkillPoint = SkillPoint - 1;
 }
 
+/*......*/
+
 void Aprogram3053Pawn::LevelUp()
 {
-	SkillPoint = 0;
 	EXP = EXP - EXPMax;
 	EXPMax = EXPMax + 50.0f;
 	Level = Level + 1;
@@ -212,9 +241,9 @@ void Aprogram3053Pawn::IsDead()
 
 void Aprogram3053Pawn::CalculateHealth()
 {
-	if (HP > 100.0f)
+	if (HP > HPMax)
 	{
-		HP = 100.0f;
+		HP = HPMax;
 		return;
 	}
 	else if (HP < 0.f || HP == 0.f)

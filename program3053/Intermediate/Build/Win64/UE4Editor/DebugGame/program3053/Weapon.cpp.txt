@@ -1,0 +1,3 @@
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\Weapon.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\Weapon.generated.h

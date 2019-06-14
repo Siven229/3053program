@@ -33,5 +33,13 @@ public:
 	FORCEINLINE UStaticMeshComponent* GetProjectileMesh() const { return ProjectileMesh; }
 	/** Returns ProjectileMovement subobject **/
 	FORCEINLINE UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	float AddInitialLifeSpan = 0.f;
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseInitialLifeSpan();
+
+	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 };
 

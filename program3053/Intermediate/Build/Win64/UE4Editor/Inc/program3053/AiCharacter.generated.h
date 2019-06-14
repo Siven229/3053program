@@ -16,6 +16,14 @@ struct FVector;
 
 #define program3053_Source_program3053_AiCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIncreaseDoubleDamageProbability) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseDoubleDamageProbability(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFireShot) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
@@ -27,6 +35,14 @@ struct FVector;
 
 
 #define program3053_Source_program3053_AiCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIncreaseDoubleDamageProbability) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseDoubleDamageProbability(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFireShot) \
 	{ \

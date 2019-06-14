@@ -1,0 +1,79 @@
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\program3053Pawn.h
+d:\githubcopy\program3053\source\program3053\ActorHP.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHP.generated.h
+d:\githubcopy\program3053\source\program3053\ObjectActor.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Pawn.generated.h
+d:\githubcopy\program3053\source\program3053\program3053Projectile.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Projectile.generated.h
+d:\githubcopy\program3053\source\program3053\ObjectActorLittle.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActorLittle.generated.h
+d:\githubcopy\program3053\source\program3053\ObjectActorMiddle.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActorMiddle.generated.h
+d:\githubcopy\program3053\source\program3053\ObjectActorLarge.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActorLarge.generated.h
+d:\githubcopy\program3053\source\program3053\ActorHPLittle.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHPLittle.generated.h
+d:\githubcopy\program3053\source\program3053\ActorHPMiddle.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHPMiddle.generated.h
+d:\githubcopy\program3053\source\program3053\ActorHPLarge.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHPLarge.generated.h
+d:\githubcopy\program3053\source\program3053\ActorTrap.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorTrap.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\iostream
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\ios
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocnum
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\climits
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cmath
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xtgmath.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdio
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\streambuf
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xiosbase
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocale
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cstring
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\stdexcept
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory0
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdint
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\limits
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\ymath.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cfloat
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cwchar
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xutility
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\utility
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\iosfwd
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xatomic0.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\typeinfo
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_typeinfo.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo.h
+D:\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\memory
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xfacet
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\system_error
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\cerrno
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xcall_once.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\xerrc.h
+D:\Windows Kits\10\include\10.0.17763.0\ucrt\share.h

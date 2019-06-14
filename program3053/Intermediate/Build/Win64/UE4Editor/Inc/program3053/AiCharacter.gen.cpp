@@ -19,12 +19,14 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_program3053();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_AAiCharacter_FireShot();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability();
 // End Cross Module References
 	void AAiCharacter::StaticRegisterNativesAAiCharacter()
 	{
 		UClass* Class = AAiCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "FireShot", &AAiCharacter::execFireShot },
+			{ "IncreaseDoubleDamageProbability", &AAiCharacter::execIncreaseDoubleDamageProbability },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -61,6 +63,29 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "AiCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAiCharacter, nullptr, "IncreaseDoubleDamageProbability", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAiCharacter_NoRegister()
 	{
 		return AAiCharacter::StaticClass();
@@ -80,6 +105,18 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProbabilitySimulation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ProbabilitySimulation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ArrowInjury_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ArrowInjury;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIHP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AIHP;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -90,6 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAiCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAiCharacter_FireShot, "FireShot" }, // 2042596110
+		{ &Z_Construct_UFunction_AAiCharacter_IncreaseDoubleDamageProbability, "IncreaseDoubleDamageProbability" }, // 1278888421
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAiCharacter_Statics::Class_MetaDataParams[] = {
@@ -112,9 +150,33 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AAiCharacter_Statics::NewProp_GunOffset = { "GunOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAiCharacter, GunOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AAiCharacter_Statics::NewProp_GunOffset_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAiCharacter_Statics::NewProp_GunOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAiCharacter_Statics::NewProp_ProbabilitySimulation_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "AiCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAiCharacter_Statics::NewProp_ProbabilitySimulation = { "ProbabilitySimulation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAiCharacter, ProbabilitySimulation), METADATA_PARAMS(Z_Construct_UClass_AAiCharacter_Statics::NewProp_ProbabilitySimulation_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAiCharacter_Statics::NewProp_ProbabilitySimulation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAiCharacter_Statics::NewProp_ArrowInjury_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "AiCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAiCharacter_Statics::NewProp_ArrowInjury = { "ArrowInjury", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAiCharacter, ArrowInjury), METADATA_PARAMS(Z_Construct_UClass_AAiCharacter_Statics::NewProp_ArrowInjury_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAiCharacter_Statics::NewProp_ArrowInjury_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAiCharacter_Statics::NewProp_AIHP_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "AiCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAiCharacter_Statics::NewProp_AIHP = { "AIHP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAiCharacter, AIHP), METADATA_PARAMS(Z_Construct_UClass_AAiCharacter_Statics::NewProp_AIHP_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAiCharacter_Statics::NewProp_AIHP_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAiCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAiCharacter_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAiCharacter_Statics::NewProp_GunOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAiCharacter_Statics::NewProp_ProbabilitySimulation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAiCharacter_Statics::NewProp_ArrowInjury,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAiCharacter_Statics::NewProp_AIHP,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAiCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAiCharacter>::IsAbstract,
@@ -143,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeAiCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAiCharacter, 1604536648);
+	IMPLEMENT_CLASS(AAiCharacter, 2708964830);
 	template<> PROGRAM3053_API UClass* StaticClass<AAiCharacter>()
 	{
 		return AAiCharacter::StaticClass();
