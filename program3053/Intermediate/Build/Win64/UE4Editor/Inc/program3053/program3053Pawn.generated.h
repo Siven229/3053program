@@ -56,6 +56,14 @@ struct FVector;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execIncreaseArrowNumber) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseArrowNumber(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFireShot) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_FireDirection); \
@@ -105,6 +113,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DecreaseSkillPoint(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseArrowNumber) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseArrowNumber(); \
 		P_NATIVE_END; \
 	} \
  \

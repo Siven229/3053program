@@ -30,10 +30,9 @@ const FName Aprogram3053Pawn::MoveRightBinding("MoveRight");
 
 Aprogram3053Pawn::Aprogram3053Pawn()
 {
-	static ConstructorHelpers::FClassFinder<AMyArrow> BP_Arrow(TEXT("Blueprint'/Game/TwinStickCPP/BlueprintClass/Arrow.Arrow_C'"));
+	static ConstructorHelpers::FClassFinder<AMyArrow> BP_Arrow(TEXT("Blueprint'/Game/TwinStickCPP/BlueprintClass/projectile/Arrow.Arrow_C'"));
 	if (BP_Arrow.Succeeded())
 	{
-
 		BPMyActorClass = BP_Arrow.Class;
 
 	}
@@ -148,7 +147,21 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 			{
 				FActorSpawnParameters SpawnInfo;
 				// spawn the projectile
-				World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation,SpawnInfo);
+				if (ArrowNumber == 1) 
+				{
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+				}
+				if (ArrowNumber == 2)
+				{
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+				}
+				if (ArrowNumber == 3)
+				{
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+					World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation, SpawnInfo);
+				}
 			}
 
 			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &Aprogram3053Pawn::ShotTimerExpired, FireRate);
@@ -254,6 +267,10 @@ void Aprogram3053Pawn::CalculateHealth()
 	    return;
 }
 
+void  Aprogram3053Pawn::IncreaseArrowNumber()
+{
+	ArrowNumber += 1;
+}
 
 void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 {

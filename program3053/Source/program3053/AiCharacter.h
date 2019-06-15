@@ -14,12 +14,35 @@ class PROGRAM3053_API AAiCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AAiCharacter();
+	/* Sound to play each time Get Hit */
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* HitSound;
 
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* BowHitSound;
+
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* BladeHitSound;
+
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* MagicHitSound;
+
+	/* Sound to play each time Get Double Hit */
+	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
+		class USoundBase* DoubleDamagedSound;
+
+	//set basic data
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float AIHP = 100.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float ArrowInjury = 25.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+		float BladeInjury = 50.0f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+		float MagicInjury = 34.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float ProbabilitySimulation = 0.5f;
@@ -31,21 +54,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	FTimerHandle TimerHandle_ShotTimerExpired;
-
-	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-	FVector GunOffset;
-
-	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-	float FireRate;
-
-	uint32 bCanFire : 1;
-
-	UFUNCTION(BluePrintCallable, Category = "Fire")
-	void FireShot(FVector FireDirection);
-
-	void ShotTimerExpired();
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 

@@ -3,3 +3,7 @@
 
 #include "MyArrow.h"
 
+void AMyArrow::NotifyActorBeginOverlap(AActor * OtherActor)
+{
+	Destroy();
+}

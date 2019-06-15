@@ -40,7 +40,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = property)
 	void IncreaseInitialLifeSpan();
 
-	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 	
 };
 

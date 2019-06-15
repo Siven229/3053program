@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\program3053.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F543ECF8-8B5A-40C6-B30E-6705BEDEE585}</UniqueIdentifier>
+      <UniqueIdentifier>{281DB328-ABCD-4615-991A-4CA255B9BE46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\program3053.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{507A5243-DE39-4DB6-BF45-10F386997FF7}</UniqueIdentifier>
+      <UniqueIdentifier>{F7B743CA-E092-49E5-9E82-6DE12F41A368}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\program3053">
-      <UniqueIdentifier>{0D364A6D-1E28-47A9-8682-BFA8F3F580C4}</UniqueIdentifier>
+      <UniqueIdentifier>{DA01257E-310C-4D15-9017-4EB00A693465}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\program3053\ActorHP.cpp">
       <Filter>Source\program3053</Filter>
@@ -90,12 +90,6 @@
       <Filter>Source\program3053</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\program3053\EnemyArrow.h">
-      <Filter>Source\program3053</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\program3053\MyActor.cpp">
-      <Filter>Source\program3053</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\program3053\MyActor.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\program3053\MyArrow.cpp">
@@ -173,5 +167,33 @@
     <ClInclude Include="..\..\Source\program3053\Weapon.h">
       <Filter>Source\program3053</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\program3053\MagicBall.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\program3053\BladeLight.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\program3053\Saber.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\program3053\Caster.h">
+      <Filter>Source\program3053</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\program3053\MagicBall.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\program3053\BladeLight.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\program3053\Saber.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\program3053\Caster.cpp">
+      <Filter>Source\program3053</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

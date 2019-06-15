@@ -119,6 +119,8 @@ public:
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 SkillPoint = 0;
 
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+		int32 ArrowNumber = 1;
 
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
@@ -162,6 +164,9 @@ public:
 	void CalculateLevel();
 
 	void IncreaseSkillPoint();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseArrowNumber();
 
 	UFUNCTION(BlueprintCallable, Category = property)
 	void DecreaseSkillPoint();

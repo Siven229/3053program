@@ -14,4 +14,5 @@ class PROGRAM3053_API AMyArrow : public Aprogram3053Projectile
 {
 	GENERATED_BODY()
 	
+	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 };

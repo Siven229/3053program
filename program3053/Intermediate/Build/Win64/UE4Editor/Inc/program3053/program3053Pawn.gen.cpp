@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredEXP();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredHP();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPMax();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseMoveSpeed();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -37,6 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 			{ "FireShot", &Aprogram3053Pawn::execFireShot },
 			{ "IncreaseAcquiredEXP", &Aprogram3053Pawn::execIncreaseAcquiredEXP },
 			{ "IncreaseAcquiredHP", &Aprogram3053Pawn::execIncreaseAcquiredHP },
+			{ "IncreaseArrowNumber", &Aprogram3053Pawn::execIncreaseArrowNumber },
 			{ "IncreaseHPMax", &Aprogram3053Pawn::execIncreaseHPMax },
 			{ "IncreaseMoveSpeed", &Aprogram3053Pawn::execIncreaseMoveSpeed },
 		};
@@ -145,6 +147,29 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Aprogram3053Pawn, nullptr, "IncreaseArrowNumber", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPMax_Statics
 	{
 #if WITH_METADATA
@@ -202,6 +227,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ArrowNumber_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ArrowNumber;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SkillPoint_MetaData[];
 #endif
@@ -315,6 +344,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_FireShot, "FireShot" }, // 2104605268
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredEXP, "IncreaseAcquiredEXP" }, // 2871379223
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredHP, "IncreaseAcquiredHP" }, // 1568021052
+		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber, "IncreaseArrowNumber" }, // 1283711335
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPMax, "IncreaseHPMax" }, // 1541535261
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseMoveSpeed, "IncreaseMoveSpeed" }, // 3864603700
 	};
@@ -327,6 +357,13 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		{ "ModuleRelativePath", "program3053Pawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ArrowNumber_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ArrowNumber = { "ArrowNumber", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, ArrowNumber), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ArrowNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ArrowNumber_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_SkillPoint_MetaData[] = {
 		{ "Category", "property" },
@@ -517,6 +554,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent = { "ShipMeshComponent", nullptr, (EPropertyFlags)0x00400000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, ShipMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ShipMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Aprogram3053Pawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_ArrowNumber,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_SkillPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax,
@@ -570,7 +608,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aprogram3053Pawn, 2414695259);
+	IMPLEMENT_CLASS(Aprogram3053Pawn, 3545100453);
 	template<> PROGRAM3053_API UClass* StaticClass<Aprogram3053Pawn>()
 	{
 		return Aprogram3053Pawn::StaticClass();
