@@ -1,17 +1,17 @@
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
-d:\profile\3053\program3053\source\program3053\ObjectActor.h
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-d:\my_program\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\ObjectActor.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

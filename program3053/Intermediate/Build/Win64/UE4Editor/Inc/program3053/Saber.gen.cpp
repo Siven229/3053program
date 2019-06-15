@@ -20,9 +20,11 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_DecreaseSkillPoint();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_FireShot();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseAcquiredEXP();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseAcquiredHP();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseArrowNumber();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseDefensivePower();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseHPMax();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ASaber_IncreaseMoveSpeed();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -36,9 +38,11 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "DecreaseSkillPoint", &ASaber::execDecreaseSkillPoint },
 			{ "FireShot", &ASaber::execFireShot },
+			{ "IncreaeeDefendArrowPower", &ASaber::execIncreaeeDefendArrowPower },
 			{ "IncreaseAcquiredEXP", &ASaber::execIncreaseAcquiredEXP },
 			{ "IncreaseAcquiredHP", &ASaber::execIncreaseAcquiredHP },
 			{ "IncreaseArrowNumber", &ASaber::execIncreaseArrowNumber },
+			{ "IncreaseDefensivePower", &ASaber::execIncreaseDefensivePower },
 			{ "IncreaseHPMax", &ASaber::execIncreaseHPMax },
 			{ "IncreaseMoveSpeed", &ASaber::execIncreaseMoveSpeed },
 		};
@@ -98,6 +102,29 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASaber_FireShot_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Saber.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASaber, nullptr, "IncreaeeDefendArrowPower", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -167,6 +194,29 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASaber_IncreaseArrowNumber_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Saber.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASaber, nullptr, "IncreaseDefensivePower", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASaber_IncreaseDefensivePower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASaber_IncreaseDefensivePower_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -248,6 +298,10 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_LevelInitialization;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefendArrowPower_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DefendArrowPower;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefensivePower_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DefensivePower;
@@ -304,10 +358,6 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AddMoveSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AddMoveSpeed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MoveSpeed;
@@ -342,9 +392,11 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASaber_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASaber_DecreaseSkillPoint, "DecreaseSkillPoint" }, // 2395437329
 		{ &Z_Construct_UFunction_ASaber_FireShot, "FireShot" }, // 3880624713
+		{ &Z_Construct_UFunction_ASaber_IncreaeeDefendArrowPower, "IncreaeeDefendArrowPower" }, // 4122030591
 		{ &Z_Construct_UFunction_ASaber_IncreaseAcquiredEXP, "IncreaseAcquiredEXP" }, // 2257281687
 		{ &Z_Construct_UFunction_ASaber_IncreaseAcquiredHP, "IncreaseAcquiredHP" }, // 2296526620
 		{ &Z_Construct_UFunction_ASaber_IncreaseArrowNumber, "IncreaseArrowNumber" }, // 2919598538
+		{ &Z_Construct_UFunction_ASaber_IncreaseDefensivePower, "IncreaseDefensivePower" }, // 2955029139
 		{ &Z_Construct_UFunction_ASaber_IncreaseHPMax, "IncreaseHPMax" }, // 854247772
 		{ &Z_Construct_UFunction_ASaber_IncreaseMoveSpeed, "IncreaseMoveSpeed" }, // 2832391975
 	};
@@ -392,6 +444,13 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASaber_Statics::NewProp_LevelInitialization = { "LevelInitialization", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASaber, LevelInitialization), METADATA_PARAMS(Z_Construct_UClass_ASaber_Statics::NewProp_LevelInitialization_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASaber_Statics::NewProp_LevelInitialization_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASaber_Statics::NewProp_DefendArrowPower_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Saber.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASaber_Statics::NewProp_DefendArrowPower = { "DefendArrowPower", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASaber, DefendArrowPower), METADATA_PARAMS(Z_Construct_UClass_ASaber_Statics::NewProp_DefendArrowPower_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASaber_Statics::NewProp_DefendArrowPower_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASaber_Statics::NewProp_DefensivePower_MetaData[] = {
 		{ "Category", "property" },
@@ -493,13 +552,6 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASaber_Statics::NewProp_FireSound = { "FireSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASaber, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASaber_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASaber_Statics::NewProp_FireSound_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASaber_Statics::NewProp_AddMoveSpeed_MetaData[] = {
-		{ "Category", "Gameplay" },
-		{ "ModuleRelativePath", "Saber.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASaber_Statics::NewProp_AddMoveSpeed = { "AddMoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASaber, AddMoveSpeed), METADATA_PARAMS(Z_Construct_UClass_ASaber_Statics::NewProp_AddMoveSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASaber_Statics::NewProp_AddMoveSpeed_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASaber_Statics::NewProp_MoveSpeed_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "Saber.h" },
@@ -559,6 +611,7 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_LevelMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_LevelInitialization,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_DefendArrowPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_DefensivePower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_EXPImproveLarge,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_EXPImproveMiddle,
@@ -573,7 +626,6 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_HPMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_HurtSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_FireSound,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_AddMoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASaber_Statics::NewProp_GunOffset,
@@ -608,7 +660,7 @@ void EmptyLinkFunctionForGeneratedCodeSaber() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASaber, 3494780570);
+	IMPLEMENT_CLASS(ASaber, 2405551200);
 	template<> PROGRAM3053_API UClass* StaticClass<ASaber>()
 	{
 		return ASaber::StaticClass();

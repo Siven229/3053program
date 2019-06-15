@@ -94,7 +94,7 @@ float AAiCharacter::DoubleDamageProbability()
 
 void AAiCharacter::IncreaseDoubleDamageProbability()
 {
-	ProbabilitySimulation += 1.0f;
+	ProbabilitySimulation += 2.5f;
 }
 
 /*受伤后的反应*/

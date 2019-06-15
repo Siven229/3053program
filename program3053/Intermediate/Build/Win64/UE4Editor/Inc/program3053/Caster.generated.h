@@ -16,6 +16,22 @@ struct FVector;
 
 #define program3053_Source_program3053_Caster_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execIncreaeeDefendArrowPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaeeDefendArrowPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseDefensivePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseDefensivePower(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execIncreaseAcquiredHP) \
 	{ \
 		P_FINISH; \
@@ -75,6 +91,22 @@ struct FVector;
 
 
 #define program3053_Source_program3053_Caster_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIncreaeeDefendArrowPower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaeeDefendArrowPower(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execIncreaseDefensivePower) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->IncreaseDefensivePower(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execIncreaseAcquiredHP) \
 	{ \

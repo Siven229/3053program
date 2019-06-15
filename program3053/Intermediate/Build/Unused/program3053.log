@@ -1,30 +1,6 @@
 ﻿  Creating makefile for program3053Editor (ini files are newer than makefile)
   Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\project\program3053\program3053.uproject" "D:\project\program3053\Intermediate\Build\Win64\program3053Editor\Development\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 7.2026982 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 14 actions with 8 processes...
-    [1/14] program3053.init.gen.cpp
-    [2/14] Caster.gen.cpp
-    [3/14] program3053Pawn.gen.cpp
-    [4/14] ActorTrap.cpp
-    [5/14] Saber.gen.cpp
-    [6/14] ActorHP.cpp
-    [7/14] program3053Controller.cpp
-    [8/14] program3053Pawn.cpp
-D:\project\program3053\Source\program3053\program3053Pawn.cpp(133): warning C4458: “FireDirection”的声明隐藏了类成员
-    d:\project\program3053\source\program3053\program3053Pawn.h(33): note: 参见“Aprogram3053Pawn::FireDirection”的声明
-    [9/14] Caster.cpp
-D:\project\program3053\Source\program3053\Caster.cpp(133): warning C4458: “FireDirection”的声明隐藏了类成员
-    d:\project\program3053\source\program3053\Caster.h(33): note: 参见“ACaster::FireDirection”的声明
-    [10/14] Saber.cpp
-D:\project\program3053\Source\program3053\Saber.cpp(133): warning C4458: “FireDirection”的声明隐藏了类成员
-    d:\project\program3053\source\program3053\Saber.h(33): note: 参见“ASaber::FireDirection”的声明
-    [11/14] program3053GameMode.cpp
-    [12/14] UE4Editor-program3053.lib
-      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053.exp
-    [13/14] UE4Editor-program3053.dll
-      正在创建库 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053.suppressed.lib 和对象 D:\project\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\UE4Editor-program3053.suppressed.exp
-    [14/14] program3053Editor.target
-  Total time in Parallel executor: 23.00 seconds
-  Total execution time: 32.73 seconds
+    Running UnrealHeaderTool "D:\GithubCopy\program3053\program3053.uproject" "D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 19.7362657 seconds
+  Target is up to date
+  Total execution time: 45.94 seconds

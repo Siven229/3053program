@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{0E8EA58B-B8E1-423C-9539-CA6858A435D5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{E38B80DD-9E0B-4697-B927-E9E47FEA428E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{9B3C8DF0-E8C8-4FA7-BEC2-F3B90EF5CBB4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{FDE6C9DD-3743-40F0-A612-AE399B9ADA01}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "program3053", "Intermediate\ProjectFiles\program3053.vcxproj", "{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{6D138189-16B0-4032-BD9E-66D7DEF2901A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{E0E7C799-6F24-4BDA-8570-E2084B2EB317}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{00843F4E-CBDA-47BA-B9F8-12B0A5FA9082}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\ue4\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\ue4\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\Unreal Engine\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\Unreal Engine\UE_4.22\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6D138189-16B0-4032-BD9E-66D7DEF2901A} = {0E8EA58B-B8E1-423C-9539-CA6858A435D5}
-		{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4} = {9B3C8DF0-E8C8-4FA7-BEC2-F3B90EF5CBB4}
+		{6D138189-16B0-4032-BD9E-66D7DEF2901A} = {E38B80DD-9E0B-4697-B927-E9E47FEA428E}
+		{6AE8F81B-E8C0-471F-9ED8-F49C226F48D4} = {FDE6C9DD-3743-40F0-A612-AE399B9ADA01}
 	EndGlobalSection
 EndGlobal

@@ -66,7 +66,7 @@ Aprogram3053Pawn::Aprogram3053Pawn()
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
 
 	// Movement
-	MoveSpeed = 600.0f + AddMoveSpeed;
+	//MoveSpeed = 600.0f + AddMoveSpeed;
 	// Weapon
 	GunOffset = FVector(180.f, 0.f, 0.f);
 	FireRate = 1.0f;
@@ -181,7 +181,7 @@ void Aprogram3053Pawn::ShotTimerExpired() {
 
 void Aprogram3053Pawn::IncreaseMoveSpeed()
 {
-	AddMoveSpeed += 300.0f;
+	MoveSpeed += 300.0f;
 }
 
 void Aprogram3053Pawn::IncreaseHPMax()
@@ -202,6 +202,16 @@ void Aprogram3053Pawn::IncreaseAcquiredHP()
 	HPRecoveryLittle += 10.0f;
 	HPRecoveryMiddle += 10.0f;
 	HPRecoveryLarge += 10.0f;
+}
+
+void Aprogram3053Pawn::IncreaseDefensivePower()
+{
+	DefensivePower += 10.0f;
+}
+
+void Aprogram3053Pawn::IncreaeeDefendArrowPower()
+{
+	DefendArrowPower += 3.0f;
 }
 
 void Aprogram3053Pawn::IncreaseSkillPoint()
@@ -316,13 +326,13 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, HurtSound, GetActorLocation());
 		}
-		HP = HP - Damage;
+		HP = HP - Damage + DefensivePower;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AEArrow::StaticClass()))
 	{
-		HP = HP - 10;
+		HP = HP - 10 + DefendArrowPower;
 		CalculateHealth();
 	}
 }

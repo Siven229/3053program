@@ -46,10 +46,7 @@ public:
 
 	/* The speed our ship moves around the level */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-		float MoveSpeed;
-
-	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-		float AddMoveSpeed = 0.f;
+		float MoveSpeed = 600.0f;
 
 	/** Sound to play each time we fire */
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
@@ -106,6 +103,9 @@ public:
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 		float DefensivePower = 0.f;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+		float DefendArrowPower = 0.f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 		int32 LevelInitialization = 1;
@@ -182,6 +182,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = property)
 		void IncreaseAcquiredHP();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+		void IncreaseDefensivePower();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+		void IncreaeeDefendArrowPower();
 
 	/*UNCTION(BlueprintCallable, Category = property)
 	void IncreaseDefensivePower();

@@ -1,13 +1,27 @@
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
-d:\profile\3053\program3053\source\program3053\AiCharacter.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\My_program\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\My_program\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\AiCharacter.generated.h
-d:\profile\3053\program3053\source\program3053\program3053Projectile.h
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Projectile.generated.h
-d:\profile\3053\program3053\source\program3053\MyArrow.h
-D:\profile\3053\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\MyArrow.generated.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ctime
-C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\AiCharacter.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\AiCharacter.generated.h
+d:\githubcopy\program3053\source\program3053\program3053Projectile.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Projectile.generated.h
+d:\githubcopy\program3053\source\program3053\MyArrow.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\MyArrow.generated.h
+d:\githubcopy\program3053\source\program3053\MagicBall.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\MagicBall.generated.h
+d:\githubcopy\program3053\source\program3053\BladeLight.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\BladeLight.generated.h
+D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE\ctime
+D:\Windows Kits\10\include\10.0.17763.0\ucrt\time.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

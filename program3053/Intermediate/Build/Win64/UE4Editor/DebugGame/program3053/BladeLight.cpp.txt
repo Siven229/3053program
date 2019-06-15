@@ -1,0 +1,5 @@
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\BladeLight.h
+d:\githubcopy\program3053\source\program3053\program3053Projectile.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Projectile.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\BladeLight.generated.h

@@ -66,7 +66,7 @@ ASaber::ASaber()
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
 
 	// Movement
-	MoveSpeed = 600.0f + AddMoveSpeed;
+	//MoveSpeed = 600.0f + AddMoveSpeed;
 	// Weapon
 	GunOffset = FVector(180.f, 0.f, 0.f);
 	FireRate = 1.0f;
@@ -185,10 +185,9 @@ void ASaber::IncreaseArrowNumber()
 	ArrowNumber += 1;
 }
 
-
 void ASaber::IncreaseMoveSpeed()
 {
-	AddMoveSpeed += 300.0f;
+	MoveSpeed += 300.0f;
 }
 
 void ASaber::IncreaseHPMax()
@@ -209,6 +208,16 @@ void ASaber::IncreaseAcquiredHP()
 	HPRecoveryLittle += 10.0f;
 	HPRecoveryMiddle += 10.0f;
 	HPRecoveryLarge += 10.0f;
+}
+
+void ASaber::IncreaseDefensivePower()
+{
+	DefensivePower += 10.0f;
+}
+
+void ASaber::IncreaeeDefendArrowPower()
+{
+	DefendArrowPower += 3.0f;
 }
 
 void ASaber::IncreaseSkillPoint()
@@ -319,13 +328,13 @@ void ASaber::NotifyActorBeginOverlap(AActor * OtherActor)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, HurtSound, GetActorLocation());
 		}
-		HP = HP - Damage;
+		HP = HP - Damage + DefendArrowPower;
 		CalculateHealth();
 	}
 
 	else if (OtherActor->IsA(AEArrow::StaticClass()))
 	{
-		HP = HP - 10;
+		HP = HP - 10 + DefendArrowPower;
 		CalculateHealth();
 	}
 }
