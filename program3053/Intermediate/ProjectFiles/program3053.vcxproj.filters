@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\program3053.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{746250D9-B839-403B-81D8-D4613A9630B3}</UniqueIdentifier>
+      <UniqueIdentifier>{F543ECF8-8B5A-40C6-B30E-6705BEDEE585}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\program3053.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5C9E5608-DE4B-4726-934E-CD0D2820528D}</UniqueIdentifier>
+      <UniqueIdentifier>{507A5243-DE39-4DB6-BF45-10F386997FF7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\program3053">
-      <UniqueIdentifier>{DEF80DF7-73B9-4D45-B989-393420FB6B8D}</UniqueIdentifier>
+      <UniqueIdentifier>{0D364A6D-1E28-47A9-8682-BFA8F3F580C4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\program3053\ActorHP.cpp">
       <Filter>Source\program3053</Filter>

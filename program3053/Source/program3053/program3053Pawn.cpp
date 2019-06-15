@@ -237,11 +237,6 @@ void Aprogram3053Pawn::CalculateExperience()
 	}
 }
 
-void Aprogram3053Pawn::IsDead()
-{
-	Destroy();
-}
-
 void Aprogram3053Pawn::CalculateHealth()
 {
 	if (HP > HPMax)
@@ -251,7 +246,7 @@ void Aprogram3053Pawn::CalculateHealth()
 	}
 	else if (HP < 0.f || HP == 0.f)
 	{
-		IsDead();
+		HP = HP;
 		return;
 	}
 	else

@@ -1,0 +1,1163 @@
+﻿Log file open, 06/15/19 16:22:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: program3053
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.417647
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/My_program/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:118][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:120][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.15-08.22.13:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.15-08.22.13:121][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.15-08.22.13:122][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-08.22.13:122][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.15-08.22.13:132][  0]LogHAL: Display: Platform has ~ 8 GB [8442679296 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.15-08.22.13:132][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.15-08.22.13:132][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.15-08.22.13:132][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/profile/3053/program3053/Saved/Config/Windows/Scalability.ini]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.15-08.22.13:133][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/profile/3053/program3053/Saved/Config/Windows/Engine.ini]
+[2019.06.15-08.22.13:133][  0]LogInit: Computer: DESKTOP-DKCFGT9
+[2019.06.15-08.22.13:133][  0]LogInit: User: 97219
+[2019.06.15-08.22.13:133][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.06.15-08.22.13:133][  0]LogInit: High frequency timer resolution =2.156250 MHz
+[2019.06.15-08.22.13:133][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.06.15-08.22.13:133][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.15-08.22.13:134][  0]LogMemory: Process Physical Memory: 99.17 MB used, 99.17 MB peak
+[2019.06.15-08.22.13:134][  0]LogMemory: Process Virtual Memory: 98.54 MB used, 98.54 MB peak
+[2019.06.15-08.22.13:134][  0]LogMemory: Physical Memory: 4910.98 MB used,  3140.58 MB free, 8051.57 MB total
+[2019.06.15-08.22.13:134][  0]LogMemory: Virtual Memory: 4684.33 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.06.15-08.22.13:201][  0]LogInit: Using OS detected language (zh-CN).
+[2019.06.15-08.22.13:201][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.06.15-08.22.13:201][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh-Hans-CN/Editor.locres' could not be opened for reading!
+[2019.06.15-08.22.13:201][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh-Hans-CN/EditorTutorials.locres' could not be opened for reading!
+[2019.06.15-08.22.13:201][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh-Hans-CN/Keywords.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh-Hans-CN/Category.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh-Hans-CN/ToolTips.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh-Hans-CN/PropertyNames.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh-Hans-CN/Engine.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh-Hans-CN/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh-Hans-CN/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh-Hans-CN/OnlineSubsystem.locres' could not be opened for reading!
+[2019.06.15-08.22.13:202][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh-Hans-CN/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh-CN/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh-CN/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh-CN/OnlineSubsystem.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh-CN/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh-Hans/Editor.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh-Hans/EditorTutorials.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh-Hans/Keywords.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh-Hans/Category.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh-Hans/ToolTips.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh-Hans/PropertyNames.locres' could not be opened for reading!
+[2019.06.15-08.22.13:237][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh-Hans/Engine.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2019.06.15-08.22.13:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2019.06.15-08.22.13:257][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.15-08.22.13:289][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.15-08.22.13:289][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.15-08.22.13:447][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.15-08.22.13:447][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.15-08.22.14:485][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.06.15-08.22.14:485][  0]LogD3D11RHI:       4019/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.15-08.22.14:501][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.06.15-08.22.14:501][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.15-08.22.14:503][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.15-08.22.14:503][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.15-08.22.14:504][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.15-08.22.14:527][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.15-08.22.14:527][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.06.15-08.22.14:527][  0]LogWindows: EnumDisplayDevices:
+[2019.06.15-08.22.14:527][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.06.15-08.22.14:527][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.15-08.22.14:529][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.06.15-08.22.14:529][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2019.06.15-08.22.14:529][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.06.15-08.22.14:529][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.06.15-08.22.14:529][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2019.06.15-08.22.14:529][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2019.06.15-08.22.14:529][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2019.06.15-08.22.14:562][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.15-08.22.14:565][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.15-08.22.14:565][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.15-08.22.14:565][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.15-08.22.14:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.06.15-08.22.14:798][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.15-08.22.14:809][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.15-08.22.14:819][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.15-08.22.14:830][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.15-08.22.14:840][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.15-08.22.14:851][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.15-08.22.14:861][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.15-08.22.14:872][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.15-08.22.14:877][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.15-08.22.14:940][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.15-08.22.14:941][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.15-08.22.14:942][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.15-08.22.14:987][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.15-08.22.14:987][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.15-08.22.15:006][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.15-08.22.15:006][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.15-08.22.15:016][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.15-08.22.15:027][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.15-08.22.15:037][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.15-08.22.15:047][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.15-08.22.15:082][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.15-08.22.15:082][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.15-08.22.15:082][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.15-08.22.15:088][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.15-08.22.15:120][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../profile/3053/program3053/Intermediate/Shaders/WorkingDirectory/6728/).
+[2019.06.15-08.22.15:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/97219/AppData/Local/Temp/UnrealShaderWorkingDir/F4ECB2AB46132BE36AEF4D977DAA1EF6/'.
+[2019.06.15-08.22.15:121][  0]LogXGEController: Cleaning working directory: C:/Users/97219/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.15-08.22.15:122][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.15-08.22.15:122][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.15-08.22.15:122][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.15-08.22.15:596][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/97219/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/97219/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../profile/3053/program3053/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../profile/3053/program3053/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.15-08.22.15:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.15-08.22.15:658][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.15-08.22.15:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.15-08.22.15:658][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.15-08.22.15:670][  0]LogDerivedDataCache: Using Local data cache path C:/Users/97219/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.15-08.22.15:670][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.15-08.22.15:670][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.15-08.22.15:695][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.15-08.22.15:772][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.15-08.22.15:772][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-08.22.15:845][  0]LogAssetRegistry: FAssetRegistry took 0.0310 seconds to start up
+[2019.06.15-08.22.16:105][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-08.22.16:214][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.15-08.22.16:214][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.15-08.22.16:214][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.15-08.22.16:214][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.15-08.22.16:214][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.15-08.22.16:226][  0]LogNetVersion: program3053 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2992420275)
+[2019.06.15-08.22.16:707][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 4 prioritized culture(s) in 0.127357 seconds
+[2019.06.15-08.22.16:713][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.15-08.22.16:713][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.15-08.22.16:713][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.15-08.22.17:365][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.15-08.22.17:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.15-08.22.17:706][  0]SourceControl: 源码控制已禁用
+[2019.06.15-08.22.17:706][  0]SourceControl: 源码控制已禁用
+[2019.06.15-08.22.17:708][  0]SourceControl: 源码控制已禁用
+[2019.06.15-08.22.17:708][  0]SourceControl: 源码控制已禁用
+[2019.06.15-08.22.17:772][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.15-08.22.17:818][  0]LogOcInput: OculusInput pre-init called
+[2019.06.15-08.22.18:371][  0]LogEngine: Initializing Engine...
+[2019.06.15-08.22.18:371][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.15-08.22.18:372][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.15-08.22.18:550][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.15-08.22.18:558][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.15-08.22.18:620][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.22.19:301][  0]LogInit: FAudioDevice initialized.
+[2019.06.15-08.22.19:301][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.15-08.22.19:384][  0]LogDerivedDataCache: Saved boot cache 0.08s 72MB C:/Users/97219/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.15-08.22.19:928][  0]LogInit: Texture streaming: Enabled
+[2019.06.15-08.22.19:940][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.15-08.22.19:954][  0]LogInit: Transaction tracking system initialized
+[2019.06.15-08.22.19:968][  0]BlueprintLog: New page: 编辑器加载
+[2019.06.15-08.22.20:017][  0]LocalizationService: 本地化服务已禁用
+[2019.06.15-08.22.20:098][  0]LogLinker: Warning: Asset '../../../../../profile/3053/program3053/Content/TwinStickCPP/TwinStickOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.06.15-08.22.20:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.15-08.22.20:231][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.15-08.22.20:440][  0]SourceControl: 源码控制已禁用
+[2019.06.15-08.22.20:440][  0]Cmd: MAP LOAD FILE="../../../../../profile/3053/program3053/Content/TwinStickCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-08.22.20:440][  0]LightingResults: New page: 光照构建
+[2019.06.15-08.22.20:442][  0]MapCheck: New page: 地图检测
+[2019.06.15-08.22.20:442][  0]LightingResults: New page: 光照构建
+[2019.06.15-08.22.20:468][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.06.15-08.22.20:715][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.22.20:720][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-08.22.20:749][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.15-08.22.20:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-08.22.20:750][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时0.079毫秒完成。
+[2019.06.15-08.22.20:750][  0]LogFileHelpers: Loading map 'MainMenu' took 0.310
+[2019.06.15-08.22.20:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.20:870][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.20:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.20:883][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.20:887][  0]LogCollectionManager: Loaded 0 collections in 0.000742 seconds
+[2019.06.15-08.22.20:901][  0]LogFileCache: Scanning file cache for directory 'D:/profile/3053/program3053/Saved/Collections/' took 0.01s
+[2019.06.15-08.22.20:901][  0]LogFileCache: Scanning file cache for directory 'D:/profile/3053/program3053/Content/Developers/97219/Collections/' took 0.00s
+[2019.06.15-08.22.20:901][  0]LogFileCache: Scanning file cache for directory 'D:/profile/3053/program3053/Content/Collections/' took 0.00s
+[2019.06.15-08.22.20:901][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.15-08.22.20:909][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2754 classes and 661 folders.
+[2019.06.15-08.22.20:913][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.15-08.22.20:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:917][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:917][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:917][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:922][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:923][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:923][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.15-08.22.20:945][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.15-08.22.20:949][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.15-08.22.21:007][  0]LogSlate: Took 0.000613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.15-08.22.21:012][  0]LogSlate: Took 0.004556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.06.15-08.22.21:021][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.15-08.22.21:023][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.15-08.22.21:074][  0]LogRenderer: Reallocating scene render targets to support 1160x464 Format 10 NumSamples 1 (Frame:1).
+[2019.06.15-08.22.21:110][  0]LogSlate: Warning: Legacy localized fallback font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' was requested. Font: '/Engine/EngineFonts/Faces/RobotoRegular.RobotoRegular', Character: '光 (U+5149)'
+Legacy localized fallback fonts were deprecated in 4.22 and will be removed in a future version!
+Please update your composite fonts to use localized sub-font families: https://docs.unrealengine.com/en-US/Engine/UMG/UserGuide/Fonts/Overview
+[2019.06.15-08.22.21:271][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.15-08.22.21:271][  0]LogLoad: (Engine Initialization) Total time: 9.93 seconds
+[2019.06.15-08.22.21:271][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.15-08.22.21:290][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.06.15-08.22.21:321][  0]LogAssetRegistry: Asset discovery search completed in 5.4977 seconds
+[2019.06.15-08.22.21:323][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.15-08.22.21:323][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2019.06.15-08.22.21:324][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.15-08.22.21:348][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-08.22.35:255][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-08.22.35:305][822]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.22.35:327][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.35:327][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.22.35:328][822]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:22:35)
+[2019.06.15-08.22.35:340][822]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.22.35:344][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004298s)
+[2019.06.15-08.22.35:345][822]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.22.35:345][822]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2019.06.15-08.22.35:345][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005546s)
+[2019.06.15-08.22.35:369][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.06.15-08.22.35:372][822]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.22.35:439][822]LogInit: FAudioDevice initialized.
+[2019.06.15-08.22.35:481][822]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.35:483][822]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.22.35
+[2019.06.15-08.22.35:484][822]LogWorld: Bringing up level for play took: 0.001716
+[2019.06.15-08.22.35:501][822]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.35:502][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.35:502][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.35:503][822]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间-0.563
+[2019.06.15-08.22.35:504][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.37:204][924]LogNet: Browse: /Game/TwinStickCPP/Maps/Instruction
+[2019.06.15-08.22.37:204][924]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/Instruction
+[2019.06.15-08.22.37:230][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.06.15-08.22.37:254][924]LogAIModule: Creating AISystem for world Instruction
+[2019.06.15-08.22.37:254][924]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.37:255][924]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_Instruction.Instruction up for play (max tick rate 60) at 2019.06.15-16.22.37
+[2019.06.15-08.22.37:255][924]LogWorld: Bringing up level for play took: 0.000454
+[2019.06.15-08.22.37:256][924]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.37:257][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.37:257][924]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.37:259][924]LogLoad: Took 0.053924 seconds to LoadMap(/Game/TwinStickCPP/Maps/Instruction)
+[2019.06.15-08.22.41:552][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-08.22.41:686][190]LogNet: Browse: /Game/TwinStickCPP/Maps/MainMenu
+[2019.06.15-08.22.41:686][190]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/MainMenu
+[2019.06.15-08.22.41:714][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.06.15-08.22.41:714][190]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.22.41:717][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002551s)
+[2019.06.15-08.22.41:718][190]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.22.41:839][190]LogPlayLevel: PIE: World Init took: (0.121421s)
+[2019.06.15-08.22.41:839][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.124369s)
+[2019.06.15-08.22.41:839][190]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.41:841][190]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.22.41
+[2019.06.15-08.22.41:842][190]LogWorld: Bringing up level for play took: 0.001737
+[2019.06.15-08.22.41:842][190]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:843][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.41:843][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.41:844][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.41:844][190]LogLoad: Took 0.159076 seconds to LoadMap(/Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu)
+[2019.06.15-08.22.43:487][289]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.22.43:487][289]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.22.43:512][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.06.15-08.22.43:526][289]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.22.43:526][289]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.43:527][289]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.22.43
+[2019.06.15-08.22.43:527][289]LogWorld: Bringing up level for play took: 0.000577
+[2019.06.15-08.22.43:528][289]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.43:529][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.43:529][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.43:530][289]LogLoad: Took 0.043633 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.22.46:222][451]LogNet: Browse: /Game/TwinStickCPP/Maps/ZS
+[2019.06.15-08.22.46:222][451]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/ZS
+[2019.06.15-08.22.46:251][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.06.15-08.22.46:896][451]LogAIModule: Creating AISystem for world ZS
+[2019.06.15-08.22.46:897][451]LogLoad: Game class is 'ZhanshiPawnGameMode_C'
+[2019.06.15-08.22.46:977][451]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_ZS.ZS up for play (max tick rate 60) at 2019.06.15-16.22.46
+[2019.06.15-08.22.46:978][451]LogWorld: Bringing up level for play took: 0.080762
+[2019.06.15-08.22.46:980][451]LogLoad: Took 0.758161 seconds to LoadMap(/Game/TwinStickCPP/Maps/ZS)
+[2019.06.15-08.22.50:472][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.50:472][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.50:502][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.22.50:503][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.50:531][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.22.50:537][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.06.15-08.22.50:579][661]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.15-08.22.51:715][729]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.22.51:733][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.51:733][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.22.51:733][729]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:22:51)
+[2019.06.15-08.22.51:733][729]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.22.51:735][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002080s)
+[2019.06.15-08.22.51:736][729]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.22.51:736][729]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2019.06.15-08.22.51:736][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002815s)
+[2019.06.15-08.22.51:761][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.06.15-08.22.51:763][729]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.22.51:831][729]LogInit: FAudioDevice initialized.
+[2019.06.15-08.22.51:861][729]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.51:863][729]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.22.51
+[2019.06.15-08.22.51:863][729]LogWorld: Bringing up level for play took: 0.001667
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.51:877][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.51:877][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.51:879][729]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间-0.187
+[2019.06.15-08.22.51:879][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.22.53:510][827]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.22.53:511][827]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.22.53:539][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2019.06.15-08.22.53:544][827]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.22.53:544][827]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.53:546][827]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.22.53
+[2019.06.15-08.22.53:546][827]LogWorld: Bringing up level for play took: 0.000495
+[2019.06.15-08.22.53:546][827]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.22.53:548][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.22.53:548][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.22.53:549][827]LogLoad: Took 0.038059 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.22.54:091][860]LogNet: Browse: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.22.54:092][860]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.22.54:117][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.06.15-08.22.54:162][860]LogAIModule: Creating AISystem for world GJS
+[2019.06.15-08.22.54:163][860]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.22.54:193][860]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_GJS.GJS up for play (max tick rate 60) at 2019.06.15-16.22.54
+[2019.06.15-08.22.54:193][860]LogWorld: Bringing up level for play took: 0.030902
+[2019.06.15-08.22.54:196][860]LogLoad: Took 0.104688 seconds to LoadMap(/Game/TwinStickCPP/Maps/GJS)
+[2019.06.15-08.24.30:042][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-08.24.30:139][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.24.30:139][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.24.30:175][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.24.30:176][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.24.30:211][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.24.30:218][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.06.15-08.24.30:243][523]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.06.15-08.25.35:991][115]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.25.36:010][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.25.36:010][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.25.36:010][115]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:25:36)
+[2019.06.15-08.25.36:010][115]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.25.36:012][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001950s)
+[2019.06.15-08.25.36:013][115]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.25.36:013][115]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2019.06.15-08.25.36:013][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002978s)
+[2019.06.15-08.25.36:037][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.06.15-08.25.36:039][115]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.25.36:107][115]LogInit: FAudioDevice initialized.
+[2019.06.15-08.25.36:138][115]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.25.36:144][115]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.25.36
+[2019.06.15-08.25.36:145][115]LogWorld: Bringing up level for play took: 0.004878
+[2019.06.15-08.25.36:162][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.25.36:163][115]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.36:163][115]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.25.36:166][115]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间0.1
+[2019.06.15-08.25.36:166][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.25.37:233][179]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.25.37:233][179]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.25.37:261][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.06.15-08.25.37:267][179]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.25.37:267][179]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.25.37:268][179]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.25.37
+[2019.06.15-08.25.37:268][179]LogWorld: Bringing up level for play took: 0.000437
+[2019.06.15-08.25.37:269][179]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.25.37:270][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.25.37:270][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.25.37:271][179]LogLoad: Took 0.037983 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.25.39:333][303]LogNet: Browse: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.25.39:333][303]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.25.39:359][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.06.15-08.25.39:404][303]LogAIModule: Creating AISystem for world GJS
+[2019.06.15-08.25.39:404][303]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.25.39:471][303]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_GJS.GJS up for play (max tick rate 60) at 2019.06.15-16.25.39
+[2019.06.15-08.25.39:472][303]LogWorld: Bringing up level for play took: 0.066749
+[2019.06.15-08.25.39:474][303]LogLoad: Took 0.141126 seconds to LoadMap(/Game/TwinStickCPP/Maps/GJS)
+[2019.06.15-08.25.43:347][532]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=556.690 Y=-619.292 Z=204.413] for [AI_C]
+[2019.06.15-08.25.50:339][950]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=494.419 Y=-247.011 Z=231.527] for [AI_C]
+[2019.06.15-08.25.56:598][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.25.56:598][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.25.56:632][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.25.56:632][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.25.56:661][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.25.56:664][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.06.15-08.25.57:634][326]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.06.15-08.26.06:883][837]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-08.26.06:904][837]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStickCPP/BlueprintClass/AI/AI.AI
+[2019.06.15-08.26.10:961][837]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.06.15-08.26.13:542][837]LogSlate: Took 0.036432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.15-08.26.14:126][838]LogSlate: Took 0.033589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.15-08.27.21:486][781]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.27.21:511][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.27.21:511][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.27.21:511][781]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:27:21)
+[2019.06.15-08.27.21:511][781]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.27.21:513][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002162s)
+[2019.06.15-08.27.21:514][781]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.27.21:543][781]LogPlayLevel: PIE: World Init took: (0.029454s)
+[2019.06.15-08.27.21:543][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.031828s)
+[2019.06.15-08.27.21:687][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.06.15-08.27.21:690][781]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.27.21:759][781]LogInit: FAudioDevice initialized.
+[2019.06.15-08.27.21:873][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.27.21:934][781]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.27.21:937][781]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.27.21
+[2019.06.15-08.27.21:937][781]LogWorld: Bringing up level for play took: 0.001793
+[2019.06.15-08.27.21:949][781]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.27.21:951][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.21:951][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.27.21:953][781]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间-0.112
+[2019.06.15-08.27.21:953][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.27.22:273][782]LogRenderer: Reallocating scene render targets to support 1160x544 Format 10 NumSamples 1 (Frame:1).
+[2019.06.15-08.27.22:930][821]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.27.22:930][821]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.27.22:967][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.06.15-08.27.22:972][821]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.27.22:972][821]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.27.22:974][821]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.27.22
+[2019.06.15-08.27.22:974][821]LogWorld: Bringing up level for play took: 0.000506
+[2019.06.15-08.27.22:974][821]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.27.22:976][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.27.22:976][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.27.22:977][821]LogLoad: Took 0.046691 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.27.23:867][875]LogNet: Browse: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.27.23:868][875]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.27.23:901][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.06.15-08.27.23:935][875]LogAIModule: Creating AISystem for world GJS
+[2019.06.15-08.27.23:935][875]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.27.24:011][875]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_GJS.GJS up for play (max tick rate 60) at 2019.06.15-16.27.24
+[2019.06.15-08.27.24:012][875]LogWorld: Bringing up level for play took: 0.076085
+[2019.06.15-08.27.24:014][875]LogLoad: Took 0.146428 seconds to LoadMap(/Game/TwinStickCPP/Maps/GJS)
+[2019.06.15-08.27.33:895][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.27.33:896][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.27.33:915][462]LogSlate: Window 'program3053 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.15-08.27.34:297][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.27.34:298][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.27.34:337][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.06.15-08.27.34:346][463]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.15-08.28.23:609][375]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.28.23:633][375]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.23:633][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.28.23:633][375]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:28:23)
+[2019.06.15-08.28.23:633][375]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.28.23:636][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2019.06.15-08.28.23:636][375]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.28.23:636][375]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2019.06.15-08.28.23:636][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.003219s)
+[2019.06.15-08.28.23:668][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.06.15-08.28.23:670][375]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.28.23:738][375]LogInit: FAudioDevice initialized.
+[2019.06.15-08.28.23:746][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.28.23:778][375]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.23:781][375]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.28.23
+[2019.06.15-08.28.23:782][375]LogWorld: Bringing up level for play took: 0.002875
+[2019.06.15-08.28.23:794][375]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.23:796][375]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.23:796][375]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.23:799][375]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间-0.267
+[2019.06.15-08.28.23:799][375]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.24:608][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-08.28.24:692][427]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.24:692][427]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.24:728][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.06.15-08.28.24:733][427]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.28.24:734][427]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.24:735][427]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.28.24
+[2019.06.15-08.28.24:735][427]LogWorld: Bringing up level for play took: 0.000442
+[2019.06.15-08.28.24:735][427]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.24:736][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:736][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.24:736][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:736][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.24:736][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:736][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.24:736][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:737][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.24:737][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:737][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.24:737][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:737][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.24:737][427]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.24:737][427]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.24:737][427]LogLoad: Took 0.044907 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.28.25:614][480]LogNet: Browse: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.28.25:614][480]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.28.25:644][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.06.15-08.28.25:679][480]LogAIModule: Creating AISystem for world GJS
+[2019.06.15-08.28.25:679][480]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.25:732][480]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_GJS.GJS up for play (max tick rate 60) at 2019.06.15-16.28.25
+[2019.06.15-08.28.25:733][480]LogWorld: Bringing up level for play took: 0.052794
+[2019.06.15-08.28.25:735][480]LogLoad: Took 0.120737 seconds to LoadMap(/Game/TwinStickCPP/Maps/GJS)
+[2019.06.15-08.28.27:622][593]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=463.931 Y=-121.661 Z=288.830] for [AI_C]
+[2019.06.15-08.28.34:927][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.34:927][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.28.34:946][ 30]LogSlate: Window 'program3053 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.15-08.28.34:983][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.28.34:983][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.35:028][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.06.15-08.28.35:038][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.06.15-08.28.40:354][347]BlueprintLog: New page: 编译AI
+[2019.06.15-08.28.41:673][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.06.15-08.28.42:213][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickCPP/BlueprintClass/AI/AI" FILE="../../../../../profile/3053/program3053/Content/TwinStickCPP/BlueprintClass/AI/AI.uasset" SILENT=true
+[2019.06.15-08.28.42:656][347]LogSavePackage: Moving '../../../../../profile/3053/program3053/Saved/AI28DADB6C484782A9A8B5DEB57EEB0902.tmp' to '../../../../../profile/3053/program3053/Content/TwinStickCPP/BlueprintClass/AI/AI.uasset'
+[2019.06.15-08.28.43:623][394]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.28.43:644][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.43:644][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.28.43:644][394]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:28:43)
+[2019.06.15-08.28.43:644][394]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.28.43:646][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001701s)
+[2019.06.15-08.28.43:646][394]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.28.43:647][394]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2019.06.15-08.28.43:647][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002304s)
+[2019.06.15-08.28.43:701][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.06.15-08.28.43:702][394]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.28.43:771][394]LogInit: FAudioDevice initialized.
+[2019.06.15-08.28.43:778][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.28.43:811][394]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.43:815][394]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.28.43
+[2019.06.15-08.28.43:815][394]LogWorld: Bringing up level for play took: 0.003460
+[2019.06.15-08.28.43:827][394]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.43:829][394]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.43:829][394]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.43:832][394]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间-0.234
+[2019.06.15-08.28.43:832][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.44:872][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-08.28.44:954][460]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.44:954][460]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.44:988][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.06.15-08.28.44:993][460]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.28.44:993][460]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.44:994][460]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.28.44
+[2019.06.15-08.28.44:995][460]LogWorld: Bringing up level for play took: 0.000461
+[2019.06.15-08.28.44:995][460]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.44:996][460]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.44:996][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.44:997][460]LogLoad: Took 0.042579 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.28.45:488][490]LogNet: Browse: /Game/TwinStickCPP/Maps/FS
+[2019.06.15-08.28.45:488][490]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/FS
+[2019.06.15-08.28.45:526][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.06.15-08.28.47:176][490]LogAIModule: Creating AISystem for world FS
+[2019.06.15-08.28.47:177][490]LogLoad: Game class is 'FashiPawnGameMode_C'
+[2019.06.15-08.28.47:244][490]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_FS.FS up for play (max tick rate 60) at 2019.06.15-16.28.47
+[2019.06.15-08.28.47:245][490]LogWorld: Bringing up level for play took: 0.067378
+[2019.06.15-08.28.47:247][490]LogLoad: Took 1.759900 seconds to LoadMap(/Game/TwinStickCPP/Maps/FS)
+[2019.06.15-08.28.50:658][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.50:659][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.28.50:678][694]LogSlate: Window 'program3053 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.15-08.28.50:717][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.15-08.28.50:718][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.50:765][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.06.15-08.28.50:776][695]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.06.15-08.28.51:994][768]LogTemp: Repeating last play command: 选中的视口
+[2019.06.15-08.28.52:023][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.52:023][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-08.28.52:023][768]PIE: New page: PIE会话: MainMenu (2019年6月16日 上午12:28:52)
+[2019.06.15-08.28.52:024][768]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu
+[2019.06.15-08.28.52:027][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002069s)
+[2019.06.15-08.28.52:027][768]LogAIModule: Creating AISystem for world MainMenu
+[2019.06.15-08.28.52:027][768]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2019.06.15-08.28.52:027][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/MainMenu.MainMenu to /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.003209s)
+[2019.06.15-08.28.52:053][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.06.15-08.28.52:056][768]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-08.28.52:125][768]LogInit: FAudioDevice initialized.
+[2019.06.15-08.28.52:133][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.15-08.28.52:168][768]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.52:171][768]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2019.06.15-16.28.52
+[2019.06.15-08.28.52:171][768]LogWorld: Bringing up level for play took: 0.002627
+[2019.06.15-08.28.52:183][768]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.52:185][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.52:185][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.52:190][768]PIE: /Game/TwinStickCPP/Maps/UEDPIE_0_MainMenu的‘在编辑器中播放’的起始时间0.125
+[2019.06.15-08.28.52:190][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/TwinStickCPP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2019.06.15-08.28.53:326][835]LogNet: Browse: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.53:326][835]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/HeroChoose
+[2019.06.15-08.28.53:362][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.06.15-08.28.53:368][835]LogAIModule: Creating AISystem for world HeroChoose
+[2019.06.15-08.28.53:368][835]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.53:369][835]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_HeroChoose.HeroChoose up for play (max tick rate 60) at 2019.06.15-16.28.53
+[2019.06.15-08.28.53:369][835]LogWorld: Bringing up level for play took: 0.000448
+[2019.06.15-08.28.53:369][835]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (SpawnAI) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhpmiddle) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors1' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplittle) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors2' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnhplarge) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplittle) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors5' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexpmiddle) or object (None)
+[2019.06.15-08.28.53:371][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors6' of length 0 in '/Game/TwinStickCPP/BlueprintClass/BlueprintClassGameMode.BlueprintClassGameMode_C:ExecuteUbergraph_BlueprintClassGameMode'!
+[2019.06.15-08.28.53:371][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (spawnexplarge) or object (None)
+[2019.06.15-08.28.53:372][835]LogLoad: Took 0.045971 seconds to LoadMap(/Game/TwinStickCPP/Maps/HeroChoose)
+[2019.06.15-08.28.53:978][872]LogNet: Browse: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.28.53:979][872]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/GJS
+[2019.06.15-08.28.54:011][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.06.15-08.28.54:047][872]LogAIModule: Creating AISystem for world GJS
+[2019.06.15-08.28.54:047][872]LogLoad: Game class is 'BlueprintClassGameMode_C'
+[2019.06.15-08.28.54:087][872]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_GJS.GJS up for play (max tick rate 60) at 2019.06.15-16.28.54
+[2019.06.15-08.28.54:088][872]LogWorld: Bringing up level for play took: 0.041169
+[2019.06.15-08.28.54:090][872]LogLoad: Took 0.112268 seconds to LoadMap(/Game/TwinStickCPP/Maps/GJS)
+[2019.06.15-08.29.02:989][405]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=104.641 Y=-418.623 Z=163.069] for [AI_C]
