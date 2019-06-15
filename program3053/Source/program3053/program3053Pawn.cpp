@@ -2,10 +2,13 @@
 
 #include "program3053Pawn.h"
 #include "program3053Projectile.h"
+#include "MyArrow.h"
+#include "EArrow.h"
 #include "ObjectActorLittle.h"
 #include "ObjectActorMiddle.h"
 #include "ObjectActorLarge.h"
 #include "ActorHPLittle.h"
+#include "EnemyArrow.h"
 #include "ActorHPMiddle.h"
 #include "ActorHPLarge.h"
 #include "ActorTrap.h"
@@ -27,7 +30,7 @@ const FName Aprogram3053Pawn::MoveRightBinding("MoveRight");
 
 Aprogram3053Pawn::Aprogram3053Pawn()
 {
-	static ConstructorHelpers::FClassFinder<Aprogram3053Projectile> BP_Arrow(TEXT("Blueprint'/Game/TwinStickCPP/BlueprintClass/Arrow.Arrow_C'"));
+	static ConstructorHelpers::FClassFinder<AMyArrow> BP_Arrow(TEXT("Blueprint'/Game/TwinStickCPP/BlueprintClass/Arrow.Arrow_C'"));
 	if (BP_Arrow.Succeeded())
 	{
 
@@ -145,7 +148,7 @@ void Aprogram3053Pawn::FireShot(FVector FireDirection)
 			{
 				FActorSpawnParameters SpawnInfo;
 				// spawn the projectile
-				World->SpawnActor<Aprogram3053Projectile>(BPMyActorClass, SpawnLocation, FireRotation,SpawnInfo);
+				World->SpawnActor<AMyArrow>(BPMyActorClass, SpawnLocation, FireRotation,SpawnInfo);
 			}
 
 			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &Aprogram3053Pawn::ShotTimerExpired, FireRate);
@@ -302,6 +305,12 @@ void Aprogram3053Pawn::NotifyActorBeginOverlap(AActor * OtherActor)
 			UGameplayStatics::PlaySoundAtLocation(this, HurtSound, GetActorLocation());
 		}
 		HP = HP - Damage;
+		CalculateHealth();
+	}
+
+	else if (OtherActor->IsA(AEArrow::StaticClass()))
+	{
+		HP = HP - 10;
 		CalculateHealth();
 	}
 }

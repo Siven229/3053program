@@ -49,6 +49,7 @@ void Aprogram3053Projectile::IncreaseInitialLifeSpan()
 	AddInitialLifeSpan += 0.2f;
 }
 
+
 void Aprogram3053Projectile::NotifyActorBeginOverlap(AActor * OtherActor)
 {
 	Destroy();

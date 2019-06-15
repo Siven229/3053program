@@ -3,6 +3,7 @@
 
 #include "AiCharacter.h"
 #include "program3053Projectile.h"
+#include "MyArrow.h"
 #include "TimerManager.h"
 #include "Components/StaticMeshComponent.h"
 #include "ctime"
@@ -102,7 +103,7 @@ void AAiCharacter::IncreaseDoubleDamageProbability()
 
 void AAiCharacter::NotifyActorBeginOverlap(AActor * OtherActor)
 {
-	if (OtherActor->IsA(Aprogram3053Projectile::StaticClass()))
+	if (OtherActor->IsA(AMyArrow::StaticClass()))
 	{
 		AIHP -= ArrowInjury * DoubleDamageProbability();
 		CalculateHealth();

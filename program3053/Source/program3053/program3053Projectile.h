@@ -41,5 +41,6 @@ public:
 	void IncreaseInitialLifeSpan();
 
 	virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
+	
 };
 

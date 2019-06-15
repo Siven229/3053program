@@ -1,15 +1,6 @@
 ﻿  Creating makefile for program3053Editor (ini files are newer than makefile)
   Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\GithubCopy\program3053\program3053.uproject" "D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 37.708857 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (D:\VSC\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (D:\Windows Kits\10).
-  Distributing 7 actions to XGE
-  --------------------Build System Warning---------------------------------------
-  License is invalid:
-      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-      This build will run in standalone mode.
-  
-  -------------------------------------------------------------------------------
-  --------------------Project: Default-------------------------------------------
-  program3053Projectile.gen.cpp (2:58.51 at +0:00)
-D:\VSC\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): warning MSB5021: 终止任务可执行文件“cmd”及其子进程，因为已取消生成。
+    Running UnrealHeaderTool "D:\Epic\UE_4.22\program3053_UE\program3053\program3053.uproject" "D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 8.161856 seconds
+  Target is up to date
+  Total execution time: 10.72 seconds
