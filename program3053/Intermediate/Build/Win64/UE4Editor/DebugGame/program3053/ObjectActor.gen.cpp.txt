@@ -1,5 +1,5 @@
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Source\program3053/ObjectActor.h
-d:\epic\ue_4.22\program3053_ue\program3053\intermediate\build\win64\ue4editor\inc\program3053\ObjectActor.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\GithubCopy\program3053\Source\program3053/ObjectActor.h
+d:\githubcopy\program3053\intermediate\build\win64\ue4editor\inc\program3053\ObjectActor.generated.h

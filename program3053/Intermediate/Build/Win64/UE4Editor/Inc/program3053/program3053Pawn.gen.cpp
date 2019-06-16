@@ -23,8 +23,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaeeDefendArrowPower();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredEXP();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredHP();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseDefensivePower();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPMax();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseMoveSpeed();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -41,8 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 			{ "IncreaeeDefendArrowPower", &Aprogram3053Pawn::execIncreaeeDefendArrowPower },
 			{ "IncreaseAcquiredEXP", &Aprogram3053Pawn::execIncreaseAcquiredEXP },
 			{ "IncreaseAcquiredHP", &Aprogram3053Pawn::execIncreaseAcquiredHP },
+			{ "IncreaseAllAbilities", &Aprogram3053Pawn::execIncreaseAllAbilities },
 			{ "IncreaseArrowNumber", &Aprogram3053Pawn::execIncreaseArrowNumber },
 			{ "IncreaseDefensivePower", &Aprogram3053Pawn::execIncreaseDefensivePower },
+			{ "IncreaseHPBySecond", &Aprogram3053Pawn::execIncreaseHPBySecond },
 			{ "IncreaseHPMax", &Aprogram3053Pawn::execIncreaseHPMax },
 			{ "IncreaseMoveSpeed", &Aprogram3053Pawn::execIncreaseMoveSpeed },
 		};
@@ -174,6 +178,29 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Aprogram3053Pawn, nullptr, "IncreaseAllAbilities", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber_Statics
 	{
 #if WITH_METADATA
@@ -217,6 +244,29 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Aprogram3053Pawn_IncreaseDefensivePower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_Aprogram3053Pawn, nullptr, "IncreaseHPBySecond", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -297,6 +347,11 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelInitialization_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_LevelInitialization;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IfIncreaseHP_MetaData[];
+#endif
+		static void NewProp_IfIncreaseHP_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IfIncreaseHP;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefendArrowPower_MetaData[];
 #endif
@@ -395,8 +450,10 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaeeDefendArrowPower, "IncreaeeDefendArrowPower" }, // 954269275
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredEXP, "IncreaseAcquiredEXP" }, // 2871379223
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAcquiredHP, "IncreaseAcquiredHP" }, // 1568021052
+		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseAllAbilities, "IncreaseAllAbilities" }, // 1025794131
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseArrowNumber, "IncreaseArrowNumber" }, // 1283711335
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseDefensivePower, "IncreaseDefensivePower" }, // 2767021618
+		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPBySecond, "IncreaseHPBySecond" }, // 533495895
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseHPMax, "IncreaseHPMax" }, // 1541535261
 		{ &Z_Construct_UFunction_Aprogram3053Pawn_IncreaseMoveSpeed, "IncreaseMoveSpeed" }, // 3864603700
 	};
@@ -444,6 +501,17 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization = { "LevelInitialization", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Aprogram3053Pawn, LevelInitialization), METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "program3053Pawn.h" },
+	};
+#endif
+	void Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP_SetBit(void* Obj)
+	{
+		((Aprogram3053Pawn*)Obj)->IfIncreaseHP = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP = { "IfIncreaseHP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(Aprogram3053Pawn), &Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP_SetBit, METADATA_PARAMS(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_DefendArrowPower_MetaData[] = {
 		{ "Category", "property" },
@@ -611,6 +679,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_LevelInitialization,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_IfIncreaseHP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_DefendArrowPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_DefensivePower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Aprogram3053Pawn_Statics::NewProp_EXPImproveLarge,
@@ -660,7 +729,7 @@ void EmptyLinkFunctionForGeneratedCodeprogram3053Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Aprogram3053Pawn, 4006588886);
+	IMPLEMENT_CLASS(Aprogram3053Pawn, 836584395);
 	template<> PROGRAM3053_API UClass* StaticClass<Aprogram3053Pawn>()
 	{
 		return Aprogram3053Pawn::StaticClass();

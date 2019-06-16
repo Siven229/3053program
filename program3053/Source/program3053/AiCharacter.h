@@ -45,7 +45,7 @@ public:
 		float MagicInjury = 34.0f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
-	float ProbabilitySimulation = 0.5f;
+	float ProbabilitySimulation = 2.0f;
 
 
 

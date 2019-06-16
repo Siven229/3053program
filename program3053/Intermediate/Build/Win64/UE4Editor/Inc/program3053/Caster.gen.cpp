@@ -23,8 +23,10 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaeeDefendArrowPower();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseAcquiredEXP();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseAcquiredHP();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseAllAbilities();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseArrowNumber();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseDefensivePower();
+	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseHPBySecond();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseHPMax();
 	PROGRAM3053_API UFunction* Z_Construct_UFunction_ACaster_IncreaseMoveSpeed();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
@@ -41,8 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 			{ "IncreaeeDefendArrowPower", &ACaster::execIncreaeeDefendArrowPower },
 			{ "IncreaseAcquiredEXP", &ACaster::execIncreaseAcquiredEXP },
 			{ "IncreaseAcquiredHP", &ACaster::execIncreaseAcquiredHP },
+			{ "IncreaseAllAbilities", &ACaster::execIncreaseAllAbilities },
 			{ "IncreaseArrowNumber", &ACaster::execIncreaseArrowNumber },
 			{ "IncreaseDefensivePower", &ACaster::execIncreaseDefensivePower },
+			{ "IncreaseHPBySecond", &ACaster::execIncreaseHPBySecond },
 			{ "IncreaseHPMax", &ACaster::execIncreaseHPMax },
 			{ "IncreaseMoveSpeed", &ACaster::execIncreaseMoveSpeed },
 		};
@@ -174,6 +178,29 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Caster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACaster, nullptr, "IncreaseAllAbilities", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACaster_IncreaseAllAbilities()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaster_IncreaseAllAbilities_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ACaster_IncreaseArrowNumber_Statics
 	{
 #if WITH_METADATA
@@ -217,6 +244,29 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaster_IncreaseDefensivePower_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics::Function_MetaDataParams[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Caster.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACaster, nullptr, "IncreaseHPBySecond", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACaster_IncreaseHPBySecond()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaster_IncreaseHPBySecond_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -297,6 +347,11 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LevelInitialization_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_LevelInitialization;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IfIncreaseHP_MetaData[];
+#endif
+		static void NewProp_IfIncreaseHP_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IfIncreaseHP;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefendArrowPower_MetaData[];
 #endif
@@ -395,8 +450,10 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		{ &Z_Construct_UFunction_ACaster_IncreaeeDefendArrowPower, "IncreaeeDefendArrowPower" }, // 4056111296
 		{ &Z_Construct_UFunction_ACaster_IncreaseAcquiredEXP, "IncreaseAcquiredEXP" }, // 626438808
 		{ &Z_Construct_UFunction_ACaster_IncreaseAcquiredHP, "IncreaseAcquiredHP" }, // 1788387161
+		{ &Z_Construct_UFunction_ACaster_IncreaseAllAbilities, "IncreaseAllAbilities" }, // 3580799938
 		{ &Z_Construct_UFunction_ACaster_IncreaseArrowNumber, "IncreaseArrowNumber" }, // 568966145
 		{ &Z_Construct_UFunction_ACaster_IncreaseDefensivePower, "IncreaseDefensivePower" }, // 1390556563
+		{ &Z_Construct_UFunction_ACaster_IncreaseHPBySecond, "IncreaseHPBySecond" }, // 592071812
 		{ &Z_Construct_UFunction_ACaster_IncreaseHPMax, "IncreaseHPMax" }, // 2047166335
 		{ &Z_Construct_UFunction_ACaster_IncreaseMoveSpeed, "IncreaseMoveSpeed" }, // 98995357
 	};
@@ -444,6 +501,17 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ACaster_Statics::NewProp_LevelInitialization = { "LevelInitialization", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACaster, LevelInitialization), METADATA_PARAMS(Z_Construct_UClass_ACaster_Statics::NewProp_LevelInitialization_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACaster_Statics::NewProp_LevelInitialization_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP_MetaData[] = {
+		{ "Category", "property" },
+		{ "ModuleRelativePath", "Caster.h" },
+	};
+#endif
+	void Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP_SetBit(void* Obj)
+	{
+		((ACaster*)Obj)->IfIncreaseHP = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP = { "IfIncreaseHP", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACaster), &Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACaster_Statics::NewProp_DefendArrowPower_MetaData[] = {
 		{ "Category", "property" },
@@ -611,6 +679,7 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_LevelMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_LevelInitialization,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_IfIncreaseHP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_DefendArrowPower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_DefensivePower,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaster_Statics::NewProp_EXPImproveLarge,
@@ -660,7 +729,7 @@ void EmptyLinkFunctionForGeneratedCodeCaster() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaster, 1583825500);
+	IMPLEMENT_CLASS(ACaster, 2039182325);
 	template<> PROGRAM3053_API UClass* StaticClass<ACaster>()
 	{
 		return ACaster::StaticClass();

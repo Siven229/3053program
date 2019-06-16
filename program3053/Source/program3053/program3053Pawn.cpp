@@ -127,6 +127,12 @@ void Aprogram3053Pawn::Tick(float DeltaSeconds)
 	FireDirection.Z = 0;
 	// Try and fire a shot
 	//FireShot(FireDirection);
+
+	if (IfIncreaseHP)
+	{
+		HP += 0.04f;
+		CalculateHealth();
+	}
 }
 
 
@@ -212,6 +218,21 @@ void Aprogram3053Pawn::IncreaseDefensivePower()
 void Aprogram3053Pawn::IncreaeeDefendArrowPower()
 {
 	DefendArrowPower += 3.0f;
+}
+
+void Aprogram3053Pawn::IncreaseAllAbilities()
+{
+	HPMax += 15.0f;
+	HP += 15.0f;
+	EXPImproveLittle += 5.0f;
+	EXPImproveMiddle += 5.0f;
+	EXPImproveLarge += 5.0f;
+	DefendArrowPower += 1.0f;
+}
+
+void Aprogram3053Pawn::IncreaseHPBySecond()
+{
+	IfIncreaseHP = true;
 }
 
 void Aprogram3053Pawn::IncreaseSkillPoint()

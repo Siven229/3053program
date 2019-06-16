@@ -1,19 +1,19 @@
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\Definitions.program3053.h
-d:\epic\ue_4.22\program3053_ue\program3053\source\program3053\program3053GameMode.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053GameMode.generated.h
-d:\epic\ue_4.22\program3053_ue\program3053\source\program3053\program3053Pawn.h
-d:\epic\ue_4.22\program3053_ue\program3053\source\program3053\ActorHP.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHP.generated.h
-d:\epic\ue_4.22\program3053_ue\program3053\source\program3053\ObjectActor.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Epic\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Epic\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Pawn.generated.h
-d:\epic\ue_4.22\program3053_ue\program3053\source\program3053\program3053Controller.h
-D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Controller.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Development\program3053\Definitions.program3053.h
+d:\githubcopy\program3053\source\program3053\program3053GameMode.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053GameMode.generated.h
+d:\githubcopy\program3053\source\program3053\program3053Pawn.h
+d:\githubcopy\program3053\source\program3053\ActorHP.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ActorHP.generated.h
+d:\githubcopy\program3053\source\program3053\ObjectActor.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\ObjectActor.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Pawn.generated.h
+d:\githubcopy\program3053\source\program3053\program3053Controller.h
+D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053\program3053Controller.generated.h

@@ -127,6 +127,12 @@ void ASaber::Tick(float DeltaSeconds)
 	FireDirection.Z = 0;
 	// Try and fire a shot
 	//FireShot(FireDirection);
+
+	if (IfIncreaseHP)
+	{
+		HP += 0.04f;
+		CalculateHealth();
+	}
 }
 
 
@@ -218,6 +224,21 @@ void ASaber::IncreaseDefensivePower()
 void ASaber::IncreaeeDefendArrowPower()
 {
 	DefendArrowPower += 3.0f;
+}
+
+void ASaber::IncreaseHPBySecond()
+{
+	IfIncreaseHP = true;
+}
+
+void ASaber::IncreaseAllAbilities()
+{
+	HPMax += 15.0f;
+	HP += 15.0f;
+	EXPImproveLittle += 5.0f;
+	EXPImproveMiddle += 5.0f;
+	EXPImproveLarge += 5.0f;
+	DefendArrowPower += 1.0f;
 }
 
 void ASaber::IncreaseSkillPoint()

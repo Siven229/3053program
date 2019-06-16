@@ -423,21 +423,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I ..\..\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053
-/I ..\..\program3053_UE\program3053\Source
-/I ..\..\program3053_UE\program3053\Source\program3053
-/I D:\vs\annnn\annnn\vs\VC\Tools\MSVC\14.16.27023\INCLUDE
+/I D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\Inc\program3053
+/I D:\GithubCopy\program3053\Source
+/I D:\GithubCopy\program3053\Source\program3053
+/I D:\VSC\VC\Tools\MSVC\14.16.27023\INCLUDE
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
-/Yu"D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
-/Fp"D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.pch"
-"D:\Epic\UE_4.22\program3053_UE\program3053\Source\program3053\HeroArrow.cpp"
-/FI"D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h"
-/Fo"D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\HeroArrow.cpp.obj"
+/I "D:\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "D:\Windows Kits\10\include\10.0.17763.0\shared"
+/I "D:\Windows Kits\10\include\10.0.17763.0\um"
+/I "D:\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
+/Yu"D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h"
+/Fp"D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.pch"
+"D:\GithubCopy\program3053\Source\program3053\HeroArrow.cpp"
+/FI"D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\Definitions.program3053.h"
+/Fo"D:\GithubCopy\program3053\Intermediate\Build\Win64\UE4Editor\DebugGame\program3053\HeroArrow.cpp.obj"
 /TP
 /GR-
 /W4

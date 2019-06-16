@@ -3,7 +3,3 @@
 
 #include "MagicBall.h"
 
-void AMagicBall::NotifyActorBeginOverlap(AActor * OtherActor)
-{
-	Destroy();
-}

@@ -108,6 +108,9 @@ public:
 	float DefendArrowPower = 0.f;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
+	bool IfIncreaseHP = false;
+
+	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	int32 LevelInitialization = 1;
 
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
@@ -188,6 +191,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = property)
 	void IncreaeeDefendArrowPower();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseAllAbilities();
+
+	UFUNCTION(BlueprintCallable, Category = property)
+	void IncreaseHPBySecond();
 
 	/*UNCTION(BlueprintCallable, Category = property)
 	void IncreaseDefensivePower();

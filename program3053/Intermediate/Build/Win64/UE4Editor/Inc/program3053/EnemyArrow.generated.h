@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define PROGRAM3053_EnemyArrow_generated_h
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS \
+#define program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIncreaseInitialLifeSpan) \
 	{ \
@@ -41,7 +41,7 @@ struct FHitResult;
 	}
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIncreaseInitialLifeSpan) \
 	{ \
@@ -65,7 +65,7 @@ struct FHitResult;
 	}
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_INCLASS_NO_PURE_DECLS \
+#define program3053_Source_program3053_EnemyArrow_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyArrow(); \
 	friend struct Z_Construct_UClass_AEnemyArrow_Statics; \
@@ -76,7 +76,7 @@ public: \
 
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_INCLASS \
+#define program3053_Source_program3053_EnemyArrow_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyArrow(); \
 	friend struct Z_Construct_UClass_AEnemyArrow_Statics; \
@@ -87,7 +87,7 @@ public: \
 
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_STANDARD_CONSTRUCTORS \
+#define program3053_Source_program3053_EnemyArrow_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyArrow(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyArrow) \
@@ -100,7 +100,7 @@ private: \
 public:
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_ENHANCED_CONSTRUCTORS \
+#define program3053_Source_program3053_EnemyArrow_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemyArrow(AEnemyArrow&&); \
@@ -111,30 +111,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyArrow); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemyArrow)
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
+#define program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileMesh() { return STRUCT_OFFSET(AEnemyArrow, ProjectileMesh); } \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AEnemyArrow, ProjectileMovement); }
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_12_PROLOG
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_GENERATED_BODY_LEGACY \
+#define program3053_Source_program3053_EnemyArrow_h_12_PROLOG
+#define program3053_Source_program3053_EnemyArrow_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_INCLASS \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_STANDARD_CONSTRUCTORS \
+	program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
+	program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS \
+	program3053_Source_program3053_EnemyArrow_h_15_INCLASS \
+	program3053_Source_program3053_EnemyArrow_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_GENERATED_BODY \
+#define program3053_Source_program3053_EnemyArrow_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_INCLASS_NO_PURE_DECLS \
-	program3053_UE_program3053_Source_program3053_EnemyArrow_h_15_ENHANCED_CONSTRUCTORS \
+	program3053_Source_program3053_EnemyArrow_h_15_PRIVATE_PROPERTY_OFFSET \
+	program3053_Source_program3053_EnemyArrow_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	program3053_Source_program3053_EnemyArrow_h_15_INCLASS_NO_PURE_DECLS \
+	program3053_Source_program3053_EnemyArrow_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -142,7 +142,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROGRAM3053_API UClass* StaticClass<class AEnemyArrow>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID program3053_UE_program3053_Source_program3053_EnemyArrow_h
+#define CURRENT_FILE_ID program3053_Source_program3053_EnemyArrow_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

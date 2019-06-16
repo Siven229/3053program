@@ -127,6 +127,12 @@ void ACaster::Tick(float DeltaSeconds)
 	FireDirection.Z = 0;
 	// Try and fire a shot
 	//FireShot(FireDirection);
+
+	if (IfIncreaseHP)
+	{
+		HP += 0.04f;
+		CalculateHealth();
+	}
 }
 
 
@@ -219,6 +225,20 @@ void ACaster::IncreaeeDefendArrowPower()
 	DefendArrowPower += 3.0f;
 }
 
+void ACaster::IncreaseHPBySecond()
+{
+	IfIncreaseHP = true;
+}
+
+void ACaster::IncreaseAllAbilities()
+{
+	HPMax += 15.0f;
+	HP += 15.0f;
+	EXPImproveLittle += 5.0f;
+	EXPImproveMiddle += 5.0f;
+	EXPImproveLarge += 5.0f;
+	DefendArrowPower += 1.0f;
+}
 
 void ACaster::IncreaseSkillPoint()
 {
