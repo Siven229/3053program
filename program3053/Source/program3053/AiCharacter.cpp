@@ -75,6 +75,7 @@ void AAiCharacter::CalculateHealth()
 	return;
 }
 
+
 float AAiCharacter::DoubleDamageProbability()
 {
 	int RandNumber = 0;
@@ -112,7 +113,7 @@ void AAiCharacter::NotifyActorBeginOverlap(AActor * OtherActor)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, BowHitSound, GetActorLocation());
 		}
-		AIHP -= ArrowInjury * DoubleDamageProbability();
+		AIHP -= ArrowInjury ;
 		CalculateHealth();
 	}
 
@@ -128,7 +129,7 @@ void AAiCharacter::NotifyActorBeginOverlap(AActor * OtherActor)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, MagicHitSound, GetActorLocation());
 		}
-		AIHP -= MagicInjury * DoubleDamageProbability();
+		AIHP -= MagicInjury ;
 		CalculateHealth();
 	}
 
@@ -145,7 +146,7 @@ void AAiCharacter::NotifyActorBeginOverlap(AActor * OtherActor)
 			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 		}
 
-		AIHP -= BladeInjury * DoubleDamageProbability();
+		AIHP -= BladeInjury ;
 		CalculateHealth();
 	}
 

@@ -68,7 +68,7 @@ ACaster::ACaster()
 	// Movement
 	//MoveSpeed = 600.0f + AddMoveSpeed;
 	// Weapon
-	GunOffset = FVector(180.f, 0.f, 0.f);
+	GunOffset = FVector(300.f, 0.f, 0.f);
 	FireRate = 1.0f;
 	bCanFire = false;
 

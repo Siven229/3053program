@@ -47,6 +47,8 @@ public:
 	UPROPERTY(Category = property, EditAnywhere, BlueprintReadWrite)
 	float ProbabilitySimulation = 0.5f;
 
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -65,4 +67,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = property)
 	void IncreaseDoubleDamageProbability();
+
+
+
 };

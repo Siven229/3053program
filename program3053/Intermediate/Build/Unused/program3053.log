@@ -1,6 +1,6 @@
 ﻿  Creating makefile for program3053Editor (ini files are newer than makefile)
   Parsing headers for program3053Editor
-    Running UnrealHeaderTool "D:\GithubCopy\program3053\program3053.uproject" "D:\GithubCopy\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for program3053Editor in 19.7362657 seconds
+    Running UnrealHeaderTool "D:\Epic\UE_4.22\program3053_UE\program3053\program3053.uproject" "D:\Epic\UE_4.22\program3053_UE\program3053\Intermediate\Build\Win64\program3053Editor\DebugGame\program3053Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for program3053Editor in 14.6981462 seconds
   Target is up to date
-  Total execution time: 45.94 seconds
+  Total execution time: 25.75 seconds
